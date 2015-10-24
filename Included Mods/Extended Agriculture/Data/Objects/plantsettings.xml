@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PlantSettings>
+  <!--MaterialIDToPlantID: Map of MaterialIDs to PlantIDs
+        Key: ID of material
+        Value: Associated ID of plant
+  -->
+  <MaterialIDToPlantID>
+    <Key>Strawberry</Key>
+    <Value>Strawberry</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Cotton</Key>
+    <Value>Cotton</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Wheat</Key>
+    <Value>Wheat</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Barley</Key>
+    <Value>Barley</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Oat</Key>
+    <Value>Oat</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Rye</Key>
+    <Value>Rye</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Pine</Key>
+    <Value>PineTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>AppleWood</Key>
+    <Value>AppleTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Apple</Key>
+    <Value>AppleTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Birch</Key>
+    <Value>BirchTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Grape</Key>
+    <Value>Grape</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Currant</Key>
+    <Value>Currant</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Kiwi</Key>
+    <Value>Kiwi</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>OrangeWood</Key>
+    <Value>OrangeTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Orange</Key>
+    <Value>OrangeTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Mushroom</Key>
+    <Value>Mushroom</Value>
+  </MaterialIDToPlantID>
+</PlantSettings>

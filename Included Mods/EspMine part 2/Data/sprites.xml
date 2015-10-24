@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+  <!-- New sprites for Coal, Lead, Silver/Gold/Plat, and Salt. -->
+  
+  <Item>
+    <SpritePath>EspMineSprites.png</SpritePath>
+    <SpriteID>EspMineEmbeddedCoal</SpriteID>
+    <SourceRectangle>0 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpritePath>EspMineSprites.png</SpritePath>
+    <SpriteID>EspMineEmbeddedPreciousOre</SpriteID>
+    <SourceRectangle>32 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpritePath>EspMineSprites.png</SpritePath>
+    <SpriteID>EspMineEmbeddedLeadOre</SpriteID>
+    <SourceRectangle>64 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpritePath>EspMineSprites.png</SpritePath>
+    <SpriteID>EspMineItemSalt</SpriteID>
+    <SourceRectangle>0 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
+  
+</Sprites>

@@ -1,0 +1,24 @@
+﻿<WorkshopSettings>
+  <!-- As far as I know, not needed. Better safe than sorry.
+       Also, if someone wishes to extend this mod, this may help prevent some bugs. -->
+  <CoreItemIDsToMaterialIDs>
+    <CoreItemIDToMaterialIDs>
+      <Key>RockSalt</Key>
+      <Value>
+        <Item>
+          <MaterialID>Salt</MaterialID>
+          <Weight>1</Weight>
+        </Item>
+      </Value>
+    </CoreItemIDToMaterialIDs>
+    <CoreItemIDToMaterialIDs>
+      <Key>Salt</Key>
+      <Value>
+        <Item>
+          <MaterialID>Salt</MaterialID>
+          <Weight>1</Weight>
+        </Item>
+      </Value>
+    </CoreItemIDToMaterialIDs>
+  </CoreItemIDsToMaterialIDs>
+</WorkshopSettings>

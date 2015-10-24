@@ -1,0 +1,141 @@
+Reading mod 'C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407'...
+
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\items.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\material.xml
+	Air Strength: 0
+	Grass Strength: 0
+	Dirt Strength: 0.5
+	Clay Strength: 0.5
+	Granite Strength: 0.7
+	Basalt Strength: 0.7
+	Marble Strength: 0.7
+	Sandstone Strength: 0.7
+	Bauxite Strength: 0.7
+	Serpentine Strength: 0.7
+	LapisLazuli Strength: 0.7
+	Obsidian Strength: 3.4
+	Brick Strength: 0.7
+	Water Strength: 0.1
+	Lava Strength: 1
+	Pine Strength: 0.5
+	AppleWood Strength: 0.5
+	Birch Strength: 0.5
+	Coal Strength: 0.5
+	Copper Strength: 1
+	Malachite Strength: 1
+	Tin Strength: 0.5
+	Bronze Strength: 1.9
+	Iron Strength: 3.4
+	Steel Strength: 5.2
+	Lead Strength: 3.4
+	Silver Strength: 0.75
+	Gold Strength: 0.5
+	RoseGold Strength: 0.5
+	Platinum Strength: 0.5
+	Emerald Strength: 3
+	Sapphire Strength: 3
+	Strawberry Strength: 0.1
+	Apple Strength: 0.1
+	Wheat Strength: 0.25
+	Cotton Strength: 0.1
+	Wool Strength: 0.1
+	StandardBone Strength: 1.5
+	StandardShell Strength: 1.5
+	ThinChitin Strength: 1.5
+	ThickChitin Strength: 1.5
+	StandardSkin Strength: 1
+	YakHide Strength: 1
+	BearHide Strength: 1
+	StandardWeakFlesh Strength: 1
+	StandardStrongFlesh Strength: 1
+	Milk Strength: 0.1
+	Egg Strength: 0.1
+	OgreHide Strength: 0.1
+	ToughOgreHide Strength: 0.1
+	ThinMantChitin Strength: 1.5
+	ThickMantChitin Strength: 1.5
+	AlpacaHide Strength: 1
+	EmuHide Strength: 1
+	HoneyBadgerHide Strength: 1
+	MonitorLizardHide Strength: 1
+	YakFlesh Strength: 1
+	AlpacaFlesh Strength: 1
+	EmuFlesh Strength: 1
+	HoneyBadgerFlesh Strength: 1
+	MonitorLizardFlesh Strength: 1
+	BearFlesh Strength: 1
+	OgreFlesh Strength: 1
+	TwoHeadedOgreFlesh Strength: 1
+	YakBone Strength: 0.9
+	AlpacaBone Strength: 0.9
+	EmuBone Strength: 0.9
+	HoneyBadgerBone Strength: 0.9
+	MonitorLizardBone Strength: 0.9
+	BearBone Strength: 0.9
+	OgreBone Strength: 0.9
+	TwoHeadedOgreBone Strength: 0.9
+	YakSkull Strength: 1.5
+	AlpacaSkull Strength: 1.5
+	EmuSkull Strength: 1.5
+	HoneyBadgerSkull Strength: 1.5
+	MonitorLizardSkull Strength: 1.5
+	BearSkull Strength: 1.5
+	OgreSkull Strength: 1.5
+	TwoHeadedOgreSkull Strength: 1.5
+	Grape Strength: 0.1
+	Orange Strength: 0.1
+	OrangeWood Strength: 0.5
+	Mushroom Strength: 0.1
+	Ceramic Strength: 0.7
+	UnrefinedSand Strength: 0.5
+	RefinedSand Strength: 0.5
+	PotAsh Strength: 0.5
+	GreenGlass Strength: 0.1
+	Glass Strength: 0.1
+	LeadGlass Strength: 0.1
+	Silica Strength: 0.5
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\workshops.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\constructions.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\sprites.xml
+	Loading texture: C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Sprites\default.png
+	Loading texture: C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Sprites\GwSprites.png
+Reading vanilla plant.xml
+Reading vanilla liquid.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\storage.xml
+Reading vanilla ammo.xml
+Reading vanilla mechanism.xml
+Reading vanilla trap.xml
+Reading vanilla blueprint.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Characters\skill.xml
+Reading vanilla race.xml
+Reading vanilla faction.xml
+Reading vanilla bodypart.xml
+Reading vanilla body.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\itemsettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\UI\rightclickmenusettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\UI\stockmenusettings.xml
+Reading vanilla uniformsettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\constructionsettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\workshopsettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Objects\prospectorsettings.xml
+Reading vanilla designationsettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\Characters\charactersettings.xml
+Reading vanilla goblinsettings.xml
+Reading vanilla mantsettings.xml
+Reading vanilla golemsettings.xml
+Reading vanilla automatonsettings.xml
+Reading vanilla grasssettings.xml
+Reading vanilla bloodsettings.xml
+Reading vanilla terrainsettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\jobsettings.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\newgamesettings.xml
+Reading vanilla plantsettings.xml
+Reading vanilla liquidsettings.xml
+Reading vanilla mechanismsettings.xml
+Reading vanilla language.xml
+Reading vanilla name.xml
+Reading vanilla word.xml
+Reading vanilla namerules.xml
+Reading C:\Program Files (x86)\Steam\steamapps\workshop\content\224500\506402407\Data\UI\professionmenusettings.xml
+
+...finished reading mod

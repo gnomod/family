@@ -1,0 +1,209 @@
+===== Version 0.3.1 "Die Dye bugs, die!" or "Fun with Flags" =====
+
+Dye Vat
+  Fixed dye item names sometimes displaying incorrectly.
+  Greatly reduced materials costs to make dyes.
+
+Constructions
+  Added carpet floor, plain flag and gnomoria flags.
+
+
+
+
+
+===== Version 0.3 "I'm dyeing!" =====
+
+Dye Vat (NEW!)
+    Makes and applies dyes to cloth bolts.
+    7 colors: red, blue, yellow, green, orange, purple and black.
+
+Butcher Shop
+    Good bones and calcium will come to you, but only if you butcher a
+        skeleton. Be sure to thank him!
+    Fixed a bug from the vanilla game that made Spiders particularly hard
+        to kill. Also, you can butcher them for silk fiber. Happy hunting!
+
+Kiln
+    Ceramic Vases. Sell them for a profit, or place one on a table as
+        decoration.
+
+Metalworker
+    Treasure Heaps may now be crafted at the Metalworker. They store 128
+        identical coins and attract dragons!
+
+Traders
+    Adjusted some item prices and appearance rates.
+    Merchant
+        Carries all dyes.
+        Carries more and higher-quality coins at high kingdom worth.
+    Mining
+        Carries red, blue, and purple dyes.
+    Lumber
+        Carries red, yellow, and orange dyes.
+        Carries fancy mahogany furniture and sturdy ironwood items.
+    Agricultural
+        Carries yellow, blue, and green dyes.
+
+Adjusted growing times on some of the new plants from v0.2.
+
+Coming soon:
+    EspMine, a mining mod! (To be included in this one!)
+    New monsters: Salt Golems, and Baby Spiders
+    A new farm animal
+    More decorative furniture, including more uses for colorful cloth.
+
+
+
+
+
+===== VERSION 0.2 "Unique Vendor Items" =====
+Restructured the stockpile menu.
+
+Adjusted many item prices.
+
+Each kingdom type now sells several unique items only available by trade!
+    Merchant
+        Safe - 64-slot "treasure" container. Holds coins/gems/jewelery.
+    Mining
+        Toolbox - 64-slot "engineering/tool" container.
+        Mining Helmet - Head-slot "light" armor.
+            No movement/crafting penalty.
+            Stats like an iron helmet.
+            Provides light like a torch.
+        Raw Diamond - New gem type, 32 value.
+    Lumber
+        Chest of Drawers - 64-slot crate.
+        Brew Keg - 128-slot barrel.
+        Mahogany - New wood type, 25 value. 
+            VERY slow growing.
+            Deep, rich burgundy color.
+        Ironwood - New wood type, 17 value.
+            VERY slow growing.
+            Bright, orange color.
+        Maple - New wood type.
+            Can be foraged for Maple Syrup.
+                Can be eaten, and used in my upcoming food mod.
+                20 value, can be sold for profit.
+            Darkish-brown color.
+        Cinnamon - New wood type.
+            Can be foraged for Cinnamon (the spice, not the tree).
+                No use yet, used in my upcoming food mod.
+                20 value, can be sold for profit.
+    Agricultural
+        Big Bag - 64-slot bag.
+        Beet - New farm plant.
+            Slow growing.
+            Can be refined into Beet Sugar at the Kitchen.
+                Can be eaten, and used in my upcoming food mod.
+                40 value, can be sold for profit.
+        Peanut - New farm plant.
+            Fast growing.
+            Can be eaten, and used in my upcoming food mod.
+            COMING SOON: a new farm animal can pig out on them!
+    Various
+        Salt - No use yet, used in my upcoming food mod.
+            Buy/sell for same price, so can use to "store" trade worth.
+        Silk - New cloth type, 25 value.
+            No plant/seeds; trade only.
+            Luxurious, deep red color.
+            COMING SOON: Harvested from Spider corpses. Happy hunting!
+            COMING SOON: I bet you're all Dyeing to know what colorful
+                update I have in store!
+
+
+
+
+===== VERSION 0.1.3 "Two Minor Fixes" =====
+Fixed a rare game crash when generating Agricultural merchants with 36
+or higher population.
+
+I moved "Vanilla Gnomoria Files" inside "EspEcon part 2".
+Now making a multi-mod is less confusing.
+
+If you attempt to use multiple mods, I recommend making EspEcon the base
+mod, and letting it include in this order:
+    1. [other mods go here]
+    2. EspEcon part 2
+
+Good luck.
+
+
+
+
+
+===== VERSION 0.1.2 "Multi-Mod and Gnomoria Updates Support" =====
+I greatly trimmed down every file in EspEcon. They're now much smaller,
+much less redundant, and much less likely to conflict with other mods.
+
+If you attempt to use multiple mods, I recommend making EspEcon the base
+mod, and letting it include in this order:
+    1. [other mods go here]
+    2. EspEcon part 2
+    3. Vanilla Gnomoria Files
+
+Good luck.
+
+
+
+
+
+===== VERSION 0.1.1 "It turns out MaterialID is (NOT optional)" =====
+faction.xml states that MaterialID is (optional) in the documentation.
+This is false.
+
+This patch fixes a crash bug related to not using MaterialID.
+
+faction.xml:
+    ALL vendor items now specify a material; this fixed a crash bug.
+
+
+
+
+
+===== VERSION 0.1 "Work in Progress" =====
+Ok, so for now they're not "patch notes" so much as "what does this mode even do?"
+
+EspEcon - Espoire's Gnomoria Economy Mod
+
+EspEcon makes the traders that visit your kingdom more interesting.
+They'll offer different items each visit. Also, hopefully different
+types of kingdoms should all be of similar usefulness.
+
+items.xml:
+    CommemorativeCoin name changed. It's now just "coin" ingame.
+
+stockmenusettings.xml:
+    Tracks Straw and Bandages by default.
+    Includes a "mod loaded success" message. (Can be hidden during gameplay via the tracked items menu.)
+
+faction.xml:
+    General:
+        All merchants now continue to scale with population, up to 80 population. (Vanilla game only scales to 45.)
+    
+    Gnome:
+        Arriving gnomads may now appear with a wider variety of possible "good" skills. Nearly every skill is now possible to appear.
+    
+    Merchant City-State:
+        Offers a MUCH wider variety of items for sale, at varying rarity.
+        Always offers some coins for sale, and buys coins for the same price, allowing you to "store" trade value by buying their coins.
+    
+    Mining Colonies:
+        Pays more for their desired items.
+        Charges more for coal.
+        Offers significantly more coal, and slightly more copper.
+        Offers silica, lead, gems, blocks, and bars, at varying rarity.
+    
+    Lumber Camps:
+        Pays more for their desired items.
+        Charges more for logs.
+        Offers significantly more logs at higher kingdom worth. (Warning: golems may spawn if you buy too many at once!)
+        Offers apples, oranges, planks, coal, and high-quality furniture, at varying rarity.
+    
+    Agricultural Settlements:
+        Pays more for their desired items.
+        Charges less for livestock.
+        Offers significantly more livestock, fruits, grain and cloth fiber at higher kingdom worth.
+        Offers bolts of cloth, bandages, raw meat, animal hides, and high-quality foods, drinks, and leather armor, at varying rarity.
+
+charactersettings.xml:
+    Added a few keys to set prices of above items.

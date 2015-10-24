@@ -1,0 +1,12 @@
+﻿<StockMenuSettings>
+  <!-- Adds Bandages and Straw to the default tracked items. -->
+  
+  <TrackedItems>
+    <Name>Bandages</Name>
+    <TrackedItemID>Bandage</TrackedItemID>
+  </TrackedItems>
+  <TrackedItems>
+    <Name>Straw</Name>
+    <TrackedItemID>Straw</TrackedItemID>
+  </TrackedItems>
+</StockMenuSettings>

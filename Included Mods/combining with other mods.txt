@@ -1,0 +1,7 @@
+Recommended load order is:
+
+The base EspEcon folder, then let it include in this order:
+    1. [any other mods go here]
+    2. EspEcon part 2
+
+Compatability very not guarunteed at all.

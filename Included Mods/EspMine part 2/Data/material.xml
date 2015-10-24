@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Materials>
+  <!-- Adds 6 new gem colors, and Salt.
+       The new gem colors have different values, appear at different
+       mining depths, and will be used in an upcoming mod I'm making,
+       which makes some furniture items from gems.-->
+  <Item>
+    <ID>Ruby</ID>
+    <Name>ruby</Name>
+    <Type>Gem</Type>
+    <Color>219 24 40 255</Color>
+    <Value>16</Value>
+    <Strength>3</Strength>
+  </Item>
+  <Item>
+    <ID>Topaz</ID>
+    <Name>topaz</Name>
+    <Type>Gem</Type>
+    <Color>233 233 25 255</Color>
+    <Value>12</Value>
+    <Strength>2.8</Strength>
+  </Item>
+  <Item>
+    <ID>Amethyst</ID>
+    <Name>amethyst</Name>
+    <Type>Gem</Type>
+    <Color>87 22 90 255</Color>
+    <Value>12</Value>
+    <Strength>2.6</Strength>
+  </Item>
+  <Item>
+    <ID>Diamond</ID>
+    <Name>topaz</Name>
+    <Type>Gem</Type>
+    <Color>233 233 233 255</Color>
+    <Value>32</Value>
+    <Strength>5.5</Strength>
+  </Item>
+  <Item>
+    <ID>RoseDiamond</ID>
+    <Name>rose diamond</Name>
+    <Type>Gem</Type>
+    <Color>233 180 200 255</Color>
+    <Value>48</Value>
+    <Strength>5.5</Strength>
+  </Item>
+  <Item>
+    <ID>BlackDiamond</ID>
+    <Name>black diamond</Name>
+    <Type>Gem</Type>
+    <Color>25 25 25 255</Color>
+    <Value>64</Value>
+    <Strength>5.5</Strength>
+  </Item>
+  <Item>
+    <ID>Salt</ID>
+    <Name>salt</Name>
+    <Type>Gem</Type>
+    <Color>229 225 222 255</Color>
+    <Value>5</Value>
+    <Strength>1.4</Strength>
+  </Item>
+</Materials>

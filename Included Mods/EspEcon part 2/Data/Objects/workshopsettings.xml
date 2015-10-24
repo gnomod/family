@@ -1,0 +1,8 @@
+﻿<WorkshopSettings>
+  <ConstructionIDToWorkshopID>
+    <Item>
+      <Key>DyeVat</Key>
+      <Value>DyeVat</Value>
+    </Item>
+  </ConstructionIDToWorkshopID>
+</WorkshopSettings>

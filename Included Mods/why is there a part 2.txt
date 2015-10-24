@@ -1,0 +1,22 @@
+Details of how mods load and merge are complex and dumb.
+Basically, some parts of my mod need to load AFTER the base
+game, and some need to load before.
+
+Load order:
+    1. EspEcon (and vanilla files not in EspEcon)
+    [if you want to run other mods, put them here]
+    2. EspEcon part 2
+
+When this loads, this will happen:
+
+EspEcon
+  Vanilla files that EspEcon does not alter get loaded.
+  EspEcon gets loaded.
+
+EspEcon part 2
+  More EspEcon files load; these needed to load after the
+    vanilla stuff.
+  The "Vanilla Gnomoria Files" folder (inside part 2)
+    Vanilla files that EspEcon has already altered get loaded.
+      (The Vanilla objects that already exist in EspEcon will
+      be ignored.)

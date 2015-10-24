@@ -1,0 +1,10 @@
+﻿<ConstructionSettings>
+  <ConstructedContainers>
+    <ConstructionID>Safe</ConstructionID>
+    <ConstructionID>BrewKeg</ConstructionID>
+    <ConstructionID>LargeBag</ConstructionID>
+    <ConstructionID>Toolbox</ConstructionID>
+    <ConstructionID>Chest</ConstructionID>
+    <ConstructionID>TreasureHeap</ConstructionID>
+  </ConstructedContainers>
+</ConstructionSettings>

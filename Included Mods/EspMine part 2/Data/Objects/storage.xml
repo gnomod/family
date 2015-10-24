@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Storage>
+  <Item>
+    <StorageID>Crate</StorageID>
+    <AllowedItem>RockSalt</AllowedItem>
+  </Item>
+  <Item>
+    <StorageID>Bag</StorageID>
+    <AllowedItem>Salt</AllowedItem>
+  </Item>
+  <Item>
+    <StorageID>Wheelbarrow</StorageID>
+    <AllowedItem>RockSalt</AllowedItem>
+  </Item>
+  <Item>
+    <StorageID>Sack</StorageID>
+    <AllowedItem>Salt</AllowedItem>
+  </Item>
+</Storage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PlantSettings>
+  <MaterialIDToPlantID>
+    <Key>Beet</Key>
+    <Value>Beet</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Peanut</Key>
+    <Value>Peanut</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Mahogany</Key>
+    <Value>MahoganyTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Ironwood</Key>
+    <Value>IronwoodTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Maple</Key>
+    <Value>MapleTree</Value>
+  </MaterialIDToPlantID>
+  <MaterialIDToPlantID>
+    <Key>Cinnamon</Key>
+    <Value>CinnamonTree</Value>
+  </MaterialIDToPlantID>
+</PlantSettings>

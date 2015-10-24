@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Constructions>
+  <!-- Modifies "Bed" to show mattress material. -->
+  <Item>
+    <ID>Bed</ID>
+    <Name>bed</Name>
+    <Effect>
+      <Effect>Sleep</Effect>
+      <Amount>1</Amount>
+    </Effect>
+    <SpriteID>
+      <SpriteID>WoodBed</SpriteID>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>WoodBedSheets</SpriteID>
+      <MaterialIndex>1</MaterialIndex>
+    </SpriteID>
+    <Rotates>true</Rotates>
+    <Component>
+      <ItemID>Bed</ItemID>
+    </Component>
+  </Item>
+  
+  <!-- Modifies "FancyBed" to show mattress material. -->
+  <Item>
+    <ID>FancyBed</ID>
+    <Name>four poster bed</Name>
+    <Effect>
+      <Effect>Sleep</Effect>
+      <Amount>1</Amount>
+    </Effect>
+    <SpriteID>
+      <SpriteID>FancyWoodBed</SpriteID>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>FancyWoodBedSheets</SpriteID>
+      <MaterialIndex>1</MaterialIndex>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>FancyWoodBedTop</SpriteID>
+    </SpriteID>
+    <Rotates>true</Rotates>
+    <Component>
+      <ItemID>FancyBed</ItemID>
+    </Component>
+  </Item>
+</Constructions>

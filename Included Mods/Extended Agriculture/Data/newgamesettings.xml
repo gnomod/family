@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewGameSettings>
+  <!--EnemyRaceOptions: Define which race IDs are able to be turned on or off in advanced options
+        EnemyRaceIDGroup: Group of race IDs which is used to create a check box
+          Name: Text to display for check box
+          RaceID: ID of race which is toggled with this check box.  Supports an arbitrary amount
+  -->
+  <!--Profession: Default profession. Starting gnomes with this profession will have higher starting skills in the allowed skills
+        Name: Name of this profession
+        Skill: Skills allowed for this profession
+  -->
+  <!--Settler:
+        Offset: Vector2 offset from start position
+        RaceID: ID of race
+        Profession: Name of starting profession
+        HeldItem: Item held in hand. Supports as many as can be carried
+          Item: Weighted item to generate
+            ItemID: ID of item to generate
+            Weight (Optional): Default is 1. Weight that this item is selected over others in this group
+          MaterialID (Optional): Default is random based on CoreItemIDsToMaterialIDs.  ID of material
+  -->
+  <!--FarmAnimal:
+        Offset: Vector2 offset from start position
+        RaceID: ID of race
+        Gender: Gender.  Supports Male, Female, Neuter
+  -->
+  <!--ItemToGenerate: Supports an arbitrary amount
+        Item: Weighted item to generate.  Supports arbitrary amount
+          ItemID: ID of item to generate
+          Weight (Optional): Default is 1. Weight that this item is selected over others in this group
+        MaterialID (Optional): Default is random based on CoreItemIDsToMaterialIDs.  ID of material
+        Quantity (Optional): Default is 1.  Quantity of item to generate
+        Offset: Vector2 offset from start position
+  -->
+  <!--Container:
+        Item: Weighted item to generate.  Supports arbitrary amount
+          ItemID: ID of item to generate
+          Weight (Optional): Default is 1. Weight that this item is selected over others in this group
+        MaterialID (Optional): Default is random based on CoreItemIDsToMaterialIDs.  ID of material
+        Quantity (Optional): Default is 1.  Quantity of item to generate
+        Offset: Vector2 offset from start position
+        Contents: Contents of this container.  Must be valid contents
+          Item: Weighted item to generate.  Supports arbitrary amount
+            ItemID: ID of item to generate
+            Weight (Optional): Default is 1. Weight that this item is selected over others in this group
+          MaterialID (Optional): Default is random based on CoreItemIDsToMaterialIDs.  ID of material
+          Quantity (Optional): Default fills the container.  Quantity of item to generate
+          Offset: Vector2 offset from start position
+  -->
+  <!--Pile: Supports an arbitrary amount
+        Item: Weighted item to generate.  Supports arbitrary amount
+          ItemID: ID of item to generate
+          Weight (Optional): Default is 1. Weight that this item is selected over others in this group
+        MaterialID (Optional): Default is random based on CoreItemIDsToMaterialIDs.  ID of material
+        Quantity (Optional): Default fills the pile.  Quantity of item to generate
+        Offset: Vector2 offset from start position
+  -->
+
+  <!-- Test Items -->
+
+  <ItemToGenerate>
+      <Item>
+          <ItemID>Seed</ItemID>
+      </Item>
+      <MaterialID>Barley</MaterialID>
+      <Quantity>2</Quantity>
+      <Offset>2 6</Offset>
+  </ItemToGenerate>
+  <ItemToGenerate>
+      <Item>
+          <ItemID>Seed</ItemID>
+      </Item>
+      <MaterialID>Oat</MaterialID>
+      <Quantity>2</Quantity>
+      <Offset>2 7</Offset>
+  </ItemToGenerate>
+  <ItemToGenerate>
+      <Item>
+          <ItemID>Seed</ItemID>
+      </Item>
+      <MaterialID>Rye</MaterialID>
+      <Quantity>2</Quantity>
+      <Offset>2 8</Offset>
+  </ItemToGenerate>
+
+
+
+  <!-- vine seeds -->
+
+  <ItemToGenerate>
+      <Item>
+          <ItemID>Seed</ItemID>
+      </Item>
+      <MaterialID>Grape</MaterialID>
+      <Quantity>2</Quantity>
+      <Offset>2 7</Offset>
+  </ItemToGenerate>
+  <ItemToGenerate>
+      <Item>
+          <ItemID>Seed</ItemID>
+      </Item>
+      <MaterialID>Currant</MaterialID>
+      <Quantity>2</Quantity>
+      <Offset>2 8</Offset>
+  </ItemToGenerate>
+  <ItemToGenerate>
+      <Item>
+          <ItemID>Seed</ItemID>
+      </Item>
+      <MaterialID>Kiwi</MaterialID>
+      <Quantity>2</Quantity>
+      <Offset>2 9</Offset>
+  </ItemToGenerate>
+
+</NewGameSettings>

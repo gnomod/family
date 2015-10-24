@@ -1,0 +1,31 @@
+﻿<ItemSettings>
+  <ItemIDToStorageID>
+    <Item>
+      <Key>Safe</Key>
+      <Value>Safe</Value>
+    </Item>
+    <Item>
+      <Key>BrewKeg</Key>
+      <Value>BrewKeg</Value>
+    </Item>
+    <Item>
+      <Key>LargeBag</Key>
+      <Value>LargeBag</Value>
+    </Item>
+    <Item>
+      <Key>Chest</Key>
+      <Value>Chest</Value>
+    </Item>
+    <Item>
+      <Key>Toolbox</Key>
+      <Value>Toolbox</Value>
+    </Item>
+    <Item>
+      <Key>TreasureHeap</Key>
+      <Value>TreasureHeap</Value>
+    </Item>
+  </ItemIDToStorageID>
+  <Armor>
+    <ItemID>MiningHelmet</ItemID>
+  </Armor>
+</ItemSettings>

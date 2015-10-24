@@ -1,0 +1,92 @@
+﻿<RightClickMenuSettings>
+  <!--Build-->
+  <MenuItem>
+    <Text>Build</Text>
+    <!--Storage-->
+    <MenuItem>
+      <Text>Storage</Text>
+      <MenuItem>
+        <Text>Safe</Text>
+        <Action>
+          <Type>BuildContainer</Type>
+          <ID>Safe</ID>
+        </Action>
+      </MenuItem>
+      <MenuItem>
+        <Text>Brew Keg</Text>
+        <Action>
+          <Type>BuildContainer</Type>
+          <ID>BrewKeg</ID>
+        </Action>
+      </MenuItem>
+      <MenuItem>
+        <Text>Large Bag</Text>
+        <Action>
+          <Type>BuildContainer</Type>
+          <ID>LargeBag</ID>
+        </Action>
+      </MenuItem>
+      <MenuItem>
+        <Text>Chest of Drawers</Text>
+        <Action>
+          <Type>BuildContainer</Type>
+          <ID>Chest</ID>
+        </Action>
+      </MenuItem>
+      <MenuItem>
+        <Text>Toolbox</Text>
+        <Action>
+          <Type>BuildContainer</Type>
+          <ID>Toolbox</ID>
+        </Action>
+      </MenuItem>
+      <MenuItem>
+        <Text>Toolbox</Text>
+        <Action>
+          <Type>BuildContainer</Type>
+          <ID>TreasureHeap</ID>
+        </Action>
+      </MenuItem>
+    </MenuItem>
+    <!--Workshop-->
+    <MenuItem>
+      <Text>Workshop</Text>
+      <!--Cloth-->
+      <MenuItem>
+        <Text>Cloth</Text>
+        <MenuItem>
+          <Text>Dye vat</Text>
+          <Action>
+            <Type>BuildWorkshop</Type>
+            <ID>DyeVat</ID>
+          </Action>
+        </MenuItem>
+      </MenuItem>
+    </MenuItem>
+    <!--Furniture-->
+    <MenuItem>
+      <Text>Furniture</Text>
+      <MenuItem>
+        <Text>Table with Flower Vase</Text>
+        <Action>
+          <Type>BuildConstruction</Type>
+          <ID>TableVase</ID>
+        </Action>
+      </MenuItem>
+      <MenuItem>
+        <Text>Plain Flag</Text>
+        <Action>
+          <Type>BuildConstruction</Type>
+          <ID>PlainFlag</ID>
+        </Action>
+      </MenuItem>
+      <MenuItem>
+        <Text>Gnomoria Flag</Text>
+        <Action>
+          <Type>BuildConstruction</Type>
+          <ID>GnomoriaFlag</ID>
+        </Action>
+      </MenuItem>
+    </MenuItem>
+  </MenuItem>
+</RightClickMenuSettings>

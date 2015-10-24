@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+  <!--Item
+        SpriteID: Defines ID for this sprite referenced everywhere else
+        SpritePath (optional): Default is default.png.  This is the path to the sprite file relative to the Sprites folder
+        SourceRectangle [x, y, width, height]: Rectangle into tilesheet for this sprite
+        Offset (optional): Local offset from cell position
+        SpriteEffect (optional): Default none.  Can be FlipHorizontally or FlipVertically
+  -->
+
+  <Item>
+    <SpriteID>EspEconItemSafe</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemBrewKeg</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemLargeBag</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>64 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemChest</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>96 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemToolbox</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>128 0 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemTreasureHeap</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>64 132 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemTreasureHeapGem</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>96 132 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemTreasureHeapSword</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>128 132 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconItemSalt</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconPlantBeet</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 48 32 20</SourceRectangle>
+    <Offset>0 -2</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemBeet</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>16 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconPlantPeanut</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 48 32 20</SourceRectangle>
+    <Offset>0 -2</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemPeanut</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>64 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconItemSyrup</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemCinnamon</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>48 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconPlantIronwoodTree</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 68 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconPlantIronwoodTreeNoLeaves</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 68 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconPlantMapleTree</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>64 68 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconPlantMapleTreeNoLeaves</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>96 68 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconPlantMahoganyTree</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 100 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconPlantMahoganyTreeNoLeaves</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 100 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconPlantCinnamonTree</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>64 100 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconPlantCinnamonTreeNoBark</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>96 100 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconPlantCinnamonTreeNoLeaves</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>128 100 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconItemMiningHelmet</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 132 32 32</SourceRectangle>
+    <Offset>0 -2</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemMiningHelmetLamp</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 132 32 32</SourceRectangle>
+    <Offset>0 -2</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemMiningHelmetEquipped</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 132 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconItemMiningHelmetLampEquipped</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 132 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconItemVase</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>80 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionVase</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>80 32 16 16</SourceRectangle>
+    <Offset>0 -18</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionVaseFlowers</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>96 32 16 16</SourceRectangle>
+    <Offset>0 -18</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconConstructionFloorCarpet</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 164 32 19</SourceRectangle>
+    <Offset>0 -3</Offset>
+  </Item>
+  
+  <Item>
+    <SpriteID>EspEconConstructionFlagPole</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>0 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagBlank1</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>32 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagBlank2</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>64 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagBlank3</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>96 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagBlank4</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>128 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagEmblem1</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>160 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagEmblem2</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>192 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagEmblem3</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>224 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagEmblem4</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>256 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagShade1</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>288 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagShade2</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>320 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagShade3</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>352 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+  <Item>
+    <SpriteID>EspEconConstructionFlagShade4</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>384 183 32 32</SourceRectangle>
+    <Offset>0 -12</Offset>
+  </Item>
+</Sprites>

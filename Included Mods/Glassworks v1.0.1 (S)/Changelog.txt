@@ -1,0 +1,103 @@
+Changelog for Gnomoria Glassworks
+
+Version 1.0
+
+Changes:
+	+ Compatible with Version 0.9.18 of Gnomoria
+		- I mean, it probably was before, but it definitely is now
+	+ All Glassworks sprites are on their own tileset: This allows easier compatibility with Seasons!
+	+ Sprite reworks
+		- Completely redid sprites for jugs, coffers, canisters, and sculptures
+		- Reworked all shine effects on each sprite so that it is a different sprite; this prevents the shine color from being modified by the color of the material (no more green-colored shine for green glass, in other words!)
+		- Tweaked stained walls/floors so that the color of the grout lines between the colored tiles are no longer modified by the material. They'll always look dark now!
+	+ Rebalanced glass storage items.
+		- All glass items now hold half as much as their vanilla counterparts (if they didn't already), but are crafted in batches of threes instead of individually. They're great for decoration and they're pretty cheap... but not very space-efficient.
+	+ Rebalanced glass tiles
+		- One tile per wall and floor instead of three per wall and two per floor. Change mostly for consistency's sake with the rest of Gnomoria. Also having to haul around tiles one at a time is pretty time-consuming if you need to make three frips
+		- Each craft of glass tiles now creates a single tile instead of two
+
+
+--------------------------------------------------------------------
+
+Version 0.9.3
+
+Compatibility update to Version 0.9.18 RC38
+
+--------------------------------------------------------------------
+
+Version 0.9.2
+
+Hotfix: Fixed crash involving Prospector's Workshop
+
+--------------------------------------------------------------------
+
+Version 0.9.1
+
+Hotfix: Fixed Kilns to use Refined Sand. Silica was removed so it was causing a crash prior.
+
+--------------------------------------------------------------------
+
+Version 0.9
+
+Changes:
+	+ Reworked production tree
+		- Glass-smith and Ashery determined redundant and removed
+		- Refinery now processes sand as before, but also makes potash and batches
+		- Glass Furnace now turns batches into basic glass products
+		- Glassworks now makes advanced glass products using various materials
+		- Sand and batches are now produced more quickly than before.
+		- Most glass-related tasks now use the a new skill: Glassworking
+		- All walls and floors use glass tiles now.
+	+ New Items:
+		- Sculpture: Same as a statue, just made of glass
+		- Baubles: Same as a statuette, just made of glass. You also get three for the price of one (but at a third the normal value each)
+		- Jug: Similar function to Barrels, but cheaper to make and holds half as much
+		- Coffer: Similar function to Crates, but cheaper to make and holds half as much
+			+ Jug and Coffer require at minimum 1 green glass batch and 1 coal to make. This means that you can produce one of each for the equivalent of 5 dirt (which makes 1 unrefined sand) and 1 coal or log (which can be made into coal) and 3 tasks total (two of which are very fast). Compare to Crates and Barrels (4 logs each, 5 tasks total)
+		- Canister: Similar function to Bags, but made with glass instead of cloth
+		- Lamps: Similar function to torches, but 150% brighter and nicer looking. Much more valuable and about 20% cooler
+	+ Hauling and storage has been reworked for Glassworks items. Sands and ash should stack together in piles properly. Small items can also now be stacked into crates, except for tiles which stack into piles of 16's. Large items and furniture items are stored singularly as would be expected.
+	+ Removed:
+		- Glass Statuettes: Fills the same function as a bauble, just doesn't feel as unique. Therefore was redundant and removed
+	+ Reformatted the entire mod for readability. Includes better documentation, reorganization of some code, and a rework of the tileset.
+
+--------------------------------------------------------------------
+
+Version 0.4.3
+
+Fixes:
+	+ Updated to be compatible with Gnomoria v0.9.18 RC36
+	+ Added basic Steam Workshop Functionality
+
+--------------------------------------------------------------------
+
+Version 0.4.2
+
+Fixes:
+	+ Updated to be compatible with Gnomoria v. 0.9.18 RC28 (hopefully)
+
+--------------------------------------------------------------------
+
+Version 0.4.1
+
+Fixes:
+	+ Fixed crashes when starting a new game with Glassworks that involved the old Oak ID
+
+Changes:
+	+ Cleaned up the mod files a little bit by deleting unedited files. This should prevent issues when those files are updated by RoboB0b for whatever reason and I forget to do the same update. Also saves on work for myself. This is also a kind of "Best Practice" type of thing that should be done anyways.
+
+--------------------------------------------------------------------
+
+Version 0.4
+
+Changes:
+	+ Updated to work with RC23
+	+ Value of items and materials added by Glassworks have been re-evaluated
+	+ Stocks and Right-Click menus have been updated
+	+ No-privacy floors and walls no longer block line of sight. This fixed a few issues with transparencies and also make sense. Downside is that gnomes can be spooked by things they see on the other side of them.
+	+ New Workshop: The Glass-smith
+	+ New Items and constructions
+		- Glass Tables: Made at the Glassworks
+			~ A note: Found under normal Tables -- as opposed to being a stand-alone item -- in construction menus.
+		- Glass Door: Made at the Glassworks
+		- Framed Glass Tables: Made at the Glass-smith

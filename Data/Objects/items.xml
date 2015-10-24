@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <!-- Renames "coin" as seen in ingame text. Purely cosmetic. -->
+  <Item>
+    <ID>CommemorativeCoin</ID>
+    <Name>coin</Name>
+    <Description>[AN_ITEM_NAME].  They are standardized in weight, and produced in large quantities to facilitate trade.</Description>
+    <Value>25</Value>
+    <WeaponSize>10</WeaponSize>
+    <SpriteID>
+      <SpriteID>CommemorativeCoin</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Modifies "bed" to color mattress based on material. -->
+  <Item>
+    <ID>Bed</ID>
+    <Name>bed</Name>
+    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <Value>5</Value>
+    <WeaponSize>2000</WeaponSize>
+    <SpriteID>
+      <SpriteID>WoodBedFL</SpriteID>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>WoodBedSheetsFL</SpriteID>
+      <MaterialIndex>1</MaterialIndex>
+    </SpriteID>
+  </Item>
+  
+  <!--  Modifies "four-poster bed" to color mattress based on material. -->
+  <Item>
+    <ID>FancyBed</ID>
+    <Name>four poster bed</Name>
+    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <Value>5</Value>
+    <WeaponSize>2000</WeaponSize>
+    <SpriteID>
+      <SpriteID>FancyWoodBedFL</SpriteID>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>FancyWoodBedSheetsFL</SpriteID>
+      <MaterialIndex>1</MaterialIndex>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>FancyWoodBedTopFL</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!--  Modifies "table" to accept more wood types. -->
+  <Item>
+    <ID>Table</ID>
+    <Name>table</Name>
+    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    
+    <Value>5</Value>
+    <WeaponSize>500</WeaponSize>
+    <SpriteID>
+      <SpriteID>StoneTable</SpriteID>
+      <SpriteIDByMaterialID>
+        <Key>Pine</Key>
+        <Value>WoodTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>AppleWood</Key>
+        <Value>WoodTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Birch</Key>
+        <Value>WoodTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Maple</Key>
+        <Value>WoodTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Cinnamon</Key>
+        <Value>WoodTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Ironwood</Key>
+        <Value>WoodTable</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Mahogany</Key>
+        <Value>WoodTable</Value>
+      </SpriteIDByMaterialID>
+    </SpriteID>
+  </Item>
+  
+  <!--  Modifies "chair" to accept more wood types. -->
+  <Item>
+    <ID>Chair</ID>
+    <Name>chair</Name>
+    <ObtainDescription>Crafted at a Crude Workbench or a Carpenter's workshop</ObtainDescription>
+    
+    <Value>5</Value>
+    <WeaponSize>200</WeaponSize>
+    <SpriteID>
+      <SpriteID>StoneChairFL</SpriteID>
+      <SpriteIDByMaterialID>
+        <Key>Pine</Key>
+        <Value>WoodChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>AppleWood</Key>
+        <Value>WoodChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Birch</Key>
+        <Value>WoodChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Maple</Key>
+        <Value>WoodChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Cinnamon</Key>
+        <Value>WoodChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Ironwood</Key>
+        <Value>WoodChairFL</Value>
+      </SpriteIDByMaterialID>
+      <SpriteIDByMaterialID>
+        <Key>Mahogany</Key>
+        <Value>WoodChairFL</Value>
+      </SpriteIDByMaterialID>
+    </SpriteID>
+  </Item>
+</Items>

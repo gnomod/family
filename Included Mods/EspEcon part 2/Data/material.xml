@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Materials>
+  <!--Item:
+        Slash/Pierce/Blunt/Heat: Damage type
+          Blocks (Optional): Default max float value. Amount of damage reduced when hit
+          PercentTransfered (Optional): Default 0. Range [0, 1].  Percent of damage that is applied to the next layer if this layer is still not destroyed
+          PercentReceived (Optional): Default 1. Percent of damage received
+        ID: Defines ID for this material referenced everywhere else
+        Name: Name of material
+        Type: Type of material
+        Color: Color of material.  This is used when tinting sprites
+        Value: This setting is multiplied by the value of the item to determine worth
+        Strength: Used when calculating damage as well as affects job speed when mining
+  -->
+  
+  <Item>
+    <ID>RedDye</ID>
+    <Name>"carmine" red</Name>
+    <Type>DyeColor</Type>
+    <Color>255 0 0 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>BlueDye</ID>
+    <Name>"indigo" blue</Name>
+    <Type>DyeColor</Type>
+    <Color>0 0 255 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>YellowDye</ID>
+    <Name>"saffron" yellow</Name>
+    <Type>DyeColor</Type>
+    <Color>240 255 0 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>PurpleDye</ID>
+    <Name>"tyrian" purple</Name>
+    <Type>DyeColor</Type>
+    <Color>180 0 255 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>GreenDye</ID>
+    <Name>"artemisia" green</Name>
+    <Type>DyeColor</Type>
+    <Color>0 255 0 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>OrangeDye</ID>
+    <Name>"vermillion" orange</Name>
+    <Type>DyeColor</Type>
+    <Color>255 128 0 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>BlackDye</ID>
+    <Name>"midnight" black</Name>
+    <Type>DyeColor</Type>
+    <Color>50 50 50 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  
+  <Item>
+    <ID>Silk</ID>
+    <Name>silk</Name>
+    <Type>Cloth</Type>
+    <Color>240 248 255 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  <Item>
+    <ID>BlueSilk</ID>
+    <Name>blue silk</Name>
+    <Type>Cloth</Type>
+    <Color>50 50 220 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  <Item>
+    <ID>RedSilk</ID>
+    <Name>red silk</Name>
+    <Type>Cloth</Type>
+    <Color>220 50 55 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  <Item>
+    <ID>YellowSilk</ID>
+    <Name>yellow silk</Name>
+    <Type>Cloth</Type>
+    <Color>220 180 0 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  <Item>
+    <ID>PurpleSilk</ID>
+    <Name>purple silk</Name>
+    <Type>Cloth</Type>
+    <Color>150 0 220 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  <Item>
+    <ID>GreenSilk</ID>
+    <Name>green silk</Name>
+    <Type>Cloth</Type>
+    <Color>0 200 20 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  <Item>
+    <ID>OrangeSilk</ID>
+    <Name>orange silk</Name>
+    <Type>Cloth</Type>
+    <Color>220 110 0 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  <Item>
+    <ID>BlackSilk</ID>
+    <Name>black silk</Name>
+    <Type>Cloth</Type>
+    <Color>50 50 50 255</Color>
+    <Value>25</Value>
+    <Strength>0.15</Strength>
+  </Item>
+  
+  <Item>
+    <ID>BlueWool</ID>
+    <Name>blue wool</Name>
+    <OnlyAddUniqueName>true</OnlyAddUniqueName>
+    <Type>Cloth</Type>
+    <Color>77 77 255 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>RedWool</ID>
+    <Name>red wool</Name>
+    <OnlyAddUniqueName>true</OnlyAddUniqueName>
+    <Type>Cloth</Type>
+    <Color>255 77 77 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>YellowWool</ID>
+    <Name>yellow wool</Name>
+    <OnlyAddUniqueName>true</OnlyAddUniqueName>
+    <Type>Cloth</Type>
+    <Color>255 255 77 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>PurpleWool</ID>
+    <Name>purple wool</Name>
+    <OnlyAddUniqueName>true</OnlyAddUniqueName>
+    <Type>Cloth</Type>
+    <Color>196 77 255 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>GreenWool</ID>
+    <Name>green wool</Name>
+    <OnlyAddUniqueName>true</OnlyAddUniqueName>
+    <Type>Cloth</Type>
+    <Color>95 255 77 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>OrangeWool</ID>
+    <Name>orange wool</Name>
+    <OnlyAddUniqueName>true</OnlyAddUniqueName>
+    <Type>Cloth</Type>
+    <Color>255 165 77 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>BlackWool</ID>
+    <Name>black wool</Name>
+    <OnlyAddUniqueName>true</OnlyAddUniqueName>
+    <Type>Cloth</Type>
+    <Color>100 100 100 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  
+  <Item>
+    <ID>BlueCotton</ID>
+    <Name>blue cotton</Name>
+    <Type>Cloth</Type>
+    <Color>130 130 255 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>RedCotton</ID>
+    <Name>red cotton</Name>
+    <Type>Cloth</Type>
+    <Color>255 130 130 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>YellowCotton</ID>
+    <Name>yellow cotton</Name>
+    <Type>Cloth</Type>
+    <Color>255 255 130 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>PurpleCotton</ID>
+    <Name>purple cotton</Name>
+    <Type>Cloth</Type>
+    <Color>213 130 255 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>GreenCotton</ID>
+    <Name>green cotton</Name>
+    <Type>Cloth</Type>
+    <Color>142 255 130 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>OrangeCotton</ID>
+    <Name>orange cotton</Name>
+    <Type>Cloth</Type>
+    <Color>255 192 130 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  <Item>
+    <ID>BlackCotton</ID>
+    <Name>black cotton</Name>
+    <Type>Cloth</Type>
+    <Color>150 150 150 255</Color>
+    <Value>1</Value>
+    <Strength>0.1</Strength>
+  </Item>
+  
+  <Item>
+    <Slash>
+      <Blocks>20</Blocks>
+    </Slash>
+    <Pierce>
+      <Blocks>126.66666</Blocks>
+    </Pierce>
+    <Blunt>
+      <Blocks>233.3333</Blocks>
+    </Blunt>
+    <Heat>
+      <Blocks>10</Blocks>
+      <PercentTransfered>0.1</PercentTransfered>
+    </Heat>
+    <Sustains>3200</Sustains>
+    <ID>Ironwood</ID>
+    <Name>ironwood</Name>
+    <Type>Wood</Type>
+    <Color>217 149 30 255</Color>
+    <Value>17</Value>
+    <Strength>3.4</Strength>
+  </Item>
+  
+  <Item>
+    <Slash>
+      <Blocks>10</Blocks>
+    </Slash>
+    <Pierce>
+      <Blocks>70</Blocks>
+    </Pierce>
+    <Blunt>
+      <Blocks>130</Blocks>
+    </Blunt>
+    <Heat>
+      <Blocks>10</Blocks>
+      <PercentTransfered>0.1</PercentTransfered>
+    </Heat>
+    <Sustains>1800</Sustains>
+    <ID>Mahogany</ID>
+    <Name>mahogany</Name>
+    <Type>Wood</Type>
+    <Color>101 36 32 255</Color>
+    <Value>25</Value>
+    <Strength>1.9</Strength>
+  </Item>
+  
+  <Item>
+    <Slash>
+      <Blocks>5</Blocks>
+    </Slash>
+    <Pierce>
+      <Blocks>36.66666</Blocks>
+    </Pierce>
+    <Blunt>
+      <Blocks>68.33333</Blocks>
+    </Blunt>
+    <Heat>
+      <Blocks>5</Blocks>
+      <PercentTransfered>0.1</PercentTransfered>
+    </Heat>
+    <Sustains>425</Sustains>
+    <ID>Maple</ID>
+    <Name>maple</Name>
+    <Type>Wood</Type>
+    <Color>157 92 37 255</Color>
+    <Value>1</Value>
+    <Strength>0.5</Strength>
+  </Item>
+  
+  <Item>
+    <Slash>
+      <Blocks>5</Blocks>
+    </Slash>
+    <Pierce>
+      <Blocks>36.66666</Blocks>
+    </Pierce>
+    <Blunt>
+      <Blocks>68.33333</Blocks>
+    </Blunt>
+    <Heat>
+      <Blocks>5</Blocks>
+      <PercentTransfered>0.1</PercentTransfered>
+    </Heat>
+    <Sustains>425</Sustains>
+    <ID>Cinnamon</ID>
+    <Name>cinnamon</Name>
+    <Type>Wood</Type>
+    <Color>138 83 47 255</Color>
+    <Value>1</Value>
+    <Strength>0.5</Strength>
+  </Item>
+  
+  <Item>
+    <ID>Salt</ID>
+    <Name>salt</Name>
+    <Type>Salt</Type>
+    <Color>229 225 222 255</Color>
+    <Value>5</Value>
+    <Strength>0.2</Strength>
+  </Item>
+  
+  <Item>
+    <ID>Beet</ID>
+    <Name>beet</Name>
+    <Type>Sugar</Type>
+    <Color>242 156 150 255</Color>
+    <Value>2</Value>
+    <Strength>0.2</Strength>
+  </Item>
+  
+  <Item>
+    <ID>Peanut</ID>
+    <Name>peanut</Name>
+    <Type>Peanut</Type>
+    <Color>183 119 45 255</Color>
+    <Value>2</Value>
+    <Strength>0.2</Strength>
+  </Item>
+  
+  <Item>
+    <ID>Diamond</ID>
+    <Name>diamond</Name>
+    <Type>Gem</Type>
+    <Color>233 233 233 255</Color>
+    <Value>32</Value>
+    <Strength>5.5</Strength>
+  </Item>
+  
+  <Item>
+    <Slash>
+      <Blocks>5</Blocks>
+    </Slash>
+    <Pierce>
+      <Blocks>1</Blocks>
+      <PercentTransfered>1</PercentTransfered>
+      <PercentReceived>0.1</PercentReceived>
+    </Pierce>
+    <Blunt>
+      <Blocks>5</Blocks>
+    </Blunt>
+    <Heat>
+      <Blocks>10</Blocks>
+    </Heat>
+    <Sustains>200</Sustains>
+    <ID>SkeletonBone</ID>
+    <Name></Name>
+    <GroupName>skeleton</GroupName>
+    <Type>Bone</Type>
+    <Value>1</Value>
+    <Strength>1.5</Strength>
+  </Item>
+</Materials>

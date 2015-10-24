@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <!-- Adds the new Salt items. Why the two-step process to make Salt?
+       I wanted the mineable salt "ore" to be mostly-ignorable if someone
+       doesn't want it. This allows me to make the salt "ore" clusters
+       small, but still make enough salt for someone who does want it.
+       
+       An upcoming mod I am working on, EspFood will use Salt for cooking.-->
+  <Item>
+    <ID>Salt</ID>
+    <Suffix>pile</Suffix>
+    <Description>It's [AN_ITEM_NAME].  A valuable spice, it's one of the oldest and most ubiquitous of food seasonings.</Description>
+    <ObtainDescription>[EspEcon] Sold by traders.  [EspMine] Crafted in a Blacksmith's Workshop from rock salt.</ObtainDescription>
+    <GroupName>salt</GroupName>
+    <Value>4</Value>
+    <HasQuality>false</HasQuality>
+    <WeaponSize>0</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspMineItemSalt</SpriteID>
+    </SpriteID>
+  </Item>
+</Items>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Workshops>
+  <Item>
+    <ID>Blacksmith</ID>
+    <CraftableItem>
+      <ItemID>Salt</ItemID>
+      <Quantity>16</Quantity>
+      <SkillUsed>Blacksmithing</SkillUsed>
+      <AttributeUsed>Fitness</AttributeUsed>
+      <Difficulty>4</Difficulty>
+      <Component>
+        <ItemID>RawGem</ItemID>
+        <AllowedMaterial>Salt</AllowedMaterial>
+      </Component>
+    </CraftableItem>
+  </Item>
+</Workshops>

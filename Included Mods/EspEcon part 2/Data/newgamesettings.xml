@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewGameSettings>
+  <!-- Quick Start items below. For testing. -->
+  
+  <!--
+  <Container>
+    <Item>
+      <ItemID>Crate</ItemID>
+    </Item>
+    <Offset>2 -2</Offset>
+    <Contents>
+      <Item>
+        <Item>
+          <ItemID>Plank</ItemID>
+        </Item>
+      </Item>
+    </Contents>
+  </Container>
+  <Container>
+    <Item>
+      <ItemID>Crate</ItemID>
+    </Item>
+    <Offset>2 -1</Offset>
+    <Contents>
+      <Item>
+        <Item>
+          <ItemID>Block</ItemID>
+        </Item>
+      </Item>
+    </Contents>
+  </Container>
+  <Container>
+    <Item>
+      <ItemID>Crate</ItemID>
+    </Item>
+    <Offset>2 0</Offset>
+    <Contents>
+      <Item>
+        <Item>
+          <ItemID>Needle</ItemID>
+        </Item>
+        <Quantity>1</Quantity>
+      </Item>
+      <Item>
+        <Item>
+          <ItemID>Bolt</ItemID>
+        </Item>
+      </Item>
+    </Contents>
+  </Container>
+  <ItemToGenerate>
+    <Item>
+      <ItemID>Workbench</ItemID>
+    </Item>
+    <Offset>2 1</Offset>
+    <Quantity>16</Quantity>
+  </ItemToGenerate>
+  <ItemToGenerate>
+    <Item>
+      <ItemID>Table</ItemID>
+    </Item>
+    <Offset>2 1</Offset>
+    <Quantity>16</Quantity>
+  </ItemToGenerate>
+  <ItemToGenerate>
+    <Item>
+      <ItemID>Chair</ItemID>
+    </Item>
+    <Offset>2 2</Offset>
+    <Quantity>32</Quantity>
+  </ItemToGenerate>
+  -->
+</NewGameSettings>

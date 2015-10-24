@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CharacterSettings>
+  <!--Note: These will likely change to drop ThoughtBubbleSprite and change the others to a list to manually control whether the ThoughtBubble is rendered or not-->
+  <!--ThoughtBubbleSprite: ID of sprite rendered behind some other statuses-->
+  <!--CombatSprite: ID of sprite rendered while a gnome is in combat.  Does not render ThoughtBubble-->
+  <!--DyingOfThirstSprite: ID of sprite rendered while a gnome is dying of thirst-->
+  <!--ThirstySprite: ID of sprite rendered while a gnome is thirsty-->
+  <!--StarvingSprite: ID of sprite rendered while a gnome is starving-->
+  <!--HungrySprite: ID of sprite rendered while a gnome is hungry-->
+  <!--TiredSprite: ID of sprite rendered while a gnome is tired-->
+  <!--SleepingSprite: ID of sprite rendered while a gnome is sleeping.  Does not render ThoughtBubble-->
+  <!--LaborSkills: List of all skill used for jobs
+        Skill: ID of skill
+  -->
+  <!--Combat: List of all skill used for combat
+        Skill: ID of skill
+  -->
+  <!--DefaultAllowedSkills: List of skills allowed for every profession by default
+        Skill: ID of skill
+  -->
+  <!--DodgeSkill: ID of skill used to determine dodge success in combat-->
+  <!--ZombieRaceID: ID of race to be used when someone infected with the zombie virus raises from the dead-->
+  <ThoughtBubbleSprite>ThoughtBubble</ThoughtBubbleSprite>
+  <CombatSprite>StatusCombat</CombatSprite>
+  <DyingOfThirstSprite>StatusThirsty</DyingOfThirstSprite>
+  <ThirstySprite>StatusThirsty</ThirstySprite>
+  <StarvingSprite>StatusHungry</StarvingSprite>
+  <HungrySprite>StatusHungry</HungrySprite>
+  <TiredSprite>StatusTired</TiredSprite>
+  <SleepingSprite>StatusSleeping</SleepingSprite>
+  <LaborSkills>
+    <Skill>Mining</Skill>
+    <Skill>Masonry</Skill>
+    <Skill>Stonecarving</Skill>
+    <Skill>Woodcutting</Skill>
+    <Skill>Carpentry</Skill>
+    <Skill>Woodcarving</Skill>
+    <Skill>Smelting</Skill>
+    <Skill>Blacksmithing</Skill>
+    <Skill>Metalworking</Skill>
+    <Skill>WeaponCrafting</Skill>
+    <Skill>ArmorCrafting</Skill>
+    <Skill>Gemcutting</Skill>
+    <Skill>JewelryMaking</Skill>
+    <Skill>Weaving</Skill>
+    <Skill>Tailoring</Skill>
+    <Skill>Pottery</Skill>
+    <Skill>Leatherworking</Skill>
+    <Skill>Bonecarving</Skill>
+    <Skill>Prospecting</Skill>
+    <Skill>Tinkering</Skill>
+    <Skill>Machining</Skill>
+    <Skill>Engineering</Skill>
+    <Skill>Mechanic</Skill>
+    <Skill>AnimalHusbandry</Skill>
+    <Skill>Butchery</Skill>
+    <Skill>Horticulture</Skill>
+    <Skill>Farming</Skill>
+    <Skill>Cooking</Skill>
+    <Skill>Brewing</Skill>
+    <Skill>Medic</Skill>
+    <Skill>Caretaking</Skill>
+    <Skill>Construction</Skill>
+    <Skill>Hauling</Skill>
+<!--
+  =================================================================================================
+                                      Gnomoria :: Glassworks
+                                        Character Settings
+                                       ****STARTS HERE****
+  =================================================================================================
+-->
+    <Skill>Glassworking</Skill>
+<!--
+  =================================================================================================
+                                      Gnomoria :: Glassworks
+                                        Character Settings
+                                        ****ENDS HERE****
+  =================================================================================================
+-->
+  </LaborSkills>
+  <CombatSkills>
+    <Skill>NaturalAttack</Skill>
+    <Skill>Brawling</Skill>
+    <Skill>Sword</Skill>
+    <Skill>Axe</Skill>
+    <Skill>Hammer</Skill>
+    <Skill>Crossbow</Skill>
+    <Skill>Gun</Skill>
+    <Skill>Shield</Skill>
+    <Skill>Dodge</Skill>
+    <Skill>Armor</Skill>
+  </CombatSkills>
+  <DefaultAllowedSkills>
+    <Skill>Discipline</Skill>
+  </DefaultAllowedSkills>
+  <DodgeSkill>Dodge</DodgeSkill>
+  <ZombieRaceID>Zombie</ZombieRaceID>
+</CharacterSettings>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <!-- Adds new item: Safe. Stores 96 coins/gems/rings/necklaces. -->
+  <Item>
+    <ID>Safe</ID>
+    <Name>safe</Name>
+    <Description>[AN_ITEM_NAME].  Stores coins and other valuables.</Description>
+    <Effect>
+      <Effect>Storage</Effect>
+      <Amount>96</Amount>
+    </Effect>
+    <BaseValue>1000</BaseValue> <!-- (8 [Iron] + 1000) * 10 (trademod) = 10080 -->
+    <WeaponSize>2000</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemSafe</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Brew keg. Stores 128 liquid items.
+                    Note: would be 128 ^ but the game doesn't permit >96 per storage.
+    -->
+  <Item>
+    <ID>BrewKeg</ID>
+    <Name>brew keg</Name>
+    <Description>[AN_ITEM_NAME].  Used to store liquids.</Description>
+    <Effect>
+      <Effect>Storage</Effect>
+      <Amount>128</Amount>
+    </Effect>
+    <BaseValue>500</BaseValue>  <!-- (1 [Pine] + 500) * 10 (trademod) = 5010 -->
+    <WeaponSize>200</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemBrewKeg</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Large bag. Stores 64 bag items. -->
+  <Item>
+    <ID>LargeBag</ID>
+    <Prefix>large</Prefix>
+    <Name>bag</Name>
+    <Description>[AN_ITEM_NAME].  Used to store various items.</Description>
+    <Effect>
+      <Effect>Storage</Effect>
+      <Amount>64</Amount>
+    </Effect>
+    <BaseValue>500</BaseValue>  <!-- (25 [Silk] + 500) * 10 (trademod) = 5250 -->
+    <SpriteID>
+      <SpriteID>EspEconItemLargeBag</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Toolbox. Stores 64 engineering/tool items. -->
+  <Item>
+    <ID>Toolbox</ID>
+    <Name>toolbox</Name>
+    <Description>[AN_ITEM_NAME].  Used to store tools and machine parts.</Description>
+    <Effect>
+      <Effect>Storage</Effect>
+      <Amount>64</Amount>
+    </Effect>
+    <BaseValue>500</BaseValue>  <!-- (2 [Copper] + 500) * 10 (trademod) = 5020 -->
+    <WeaponSize>10</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemToolbox</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Chest of Drawers. Stores 64 crate items. -->
+  <Item>
+    <ID>Chest</ID>
+    <Name>chest</Name>
+    <Suffix>of drawers</Suffix>
+    <Description>[AN_ITEM_NAME].  Used to store various items.</Description>
+    <Effect>
+      <Effect>Storage</Effect>
+      <Amount>64</Amount>
+    </Effect>
+    <BaseValue>500</BaseValue>  <!-- (25 [Mahogany] + 500) * 10 (trademod) = 5250 -->
+    <WeaponSize>200</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemChest</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: TreasureHeap. Stores 128 identical coins. -->
+  <Item>
+    <ID>TreasureHeap</ID>
+    <Name>treasure heap</Name>
+    <Description>[AN_ITEM_NAME].  Attracts dragons.</Description>
+    <HasQuality>false</HasQuality>
+    <Effect>
+      <Effect>Storage</Effect>
+      <Amount>128</Amount>
+    </Effect>
+    <SpriteID>
+      <SpriteID>EspEconItemTreasureHeap</SpriteID>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>EspEconItemTreasureHeapGem</SpriteID>
+      <MaterialIndex>1</MaterialIndex>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>EspEconItemTreasureHeapSword</SpriteID>
+      <MaterialIndex>2</MaterialIndex>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Mining Helmet. Worn as armor, no job penalty, AND gives light like a torch. -->
+  <Item>
+    <ID>MiningHelmet</ID>
+    <Name>mining helmet</Name>
+    <Description>[AN_ITEM_NAME].  Provides light and protection when worn, and doesn't hinder movement like heavier armor.</Description>
+    <Effect>
+      <Effect>LightSource</Effect>
+      <Amount>16</Amount>
+    </Effect>
+    <Value>14</Value>
+    
+    <CombatRatingModifier>2</CombatRatingModifier>
+    <EquipSlot>Head</EquipSlot>
+    <EquippedMovePenalty>1</EquippedMovePenalty>
+    <EquippedJobPenalty>3</EquippedJobPenalty>
+    <SpriteID>
+      <SpriteID>EspEconItemMiningHelmet</SpriteID>
+    </SpriteID>
+    <SpriteID>
+      <SpriteID>EspEconItemMiningHelmetLamp</SpriteID>
+      <MaterialIndex>-1</MaterialIndex>
+    </SpriteID>
+    <EquippedSpriteID>EspEconItemMiningHelmetEquipped</EquippedSpriteID>
+    <EquippedDetailSpriteID>EspEconItemMiningHelmetLampEquipped</EquippedDetailSpriteID>
+  </Item>
+  
+  <!-- Adds new item: Salt. No use yet, used in EspFood. -->
+  <Item>
+    <ID>Salt</ID>
+    <Suffix>pile</Suffix>
+    <Description>It's [AN_ITEM_NAME].  A valuable spice, it's one of the oldest and most ubiquitous of food seasonings.</Description>
+    <ObtainDescription>[EspEcon] Sold by traders.  [EspMine] Crafted in a Blacksmith's Workshop from rock salt.</ObtainDescription>
+    <GroupName>salt</GroupName>
+    <Value>4</Value>
+    <HasQuality>false</HasQuality>
+    <WeaponSize>0</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemSalt</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Sugar. No use yet, used in EspFood. -->
+  <Item>
+    <ID>Sugar</ID>
+    <Name>sugar</Name>
+    <Description>Some [ITEM_NAME].  An odorless, crystalline powder with a sweet taste.</Description>
+    <ObtainDescription>[EspEcon] Sold by traders, and crafted in a Kitchen from sugar beets.</ObtainDescription>
+    <GroupName>sugar</GroupName>
+    <Effect>
+      <Effect>Food</Effect>
+      <Amount>20</Amount>
+    </Effect>
+    <Value>5</Value>
+    <HasQuality>false</HasQuality>
+    <WeaponSize>0</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemSalt</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Beet. Refined into Sugar at a Kitchen. -->
+  <Item>
+    <ID>Beet</ID>
+    <Prefix>sugar</Prefix>
+    <Description>[AN_ITEM_NAME].  They can be boiled and dried to extract a pink sugar.</Description>
+    <ObtainDescription>[EspEcon] Grown in a farm.</ObtainDescription>
+    <GroupName>beet</GroupName>
+    <Effect>
+      <Effect>Food</Effect>
+      <Amount>5</Amount>
+    </Effect>
+    <HasQuality>false</HasQuality>
+    <SpriteID>
+      <SpriteID>EspEconItemBeet</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Peanut. No use yet, used in EspFood. -->
+  <Item>
+    <ID>Peanut</ID>
+    <Description>[AN_ITEM_NAME].  They're crunchy and go well with salt.</Description>
+    <ObtainDescription>[EspEcon] Grown in a farm.</ObtainDescription>
+    <GroupName>peanut</GroupName>
+    <Effect>
+      <Effect>Food</Effect>
+      <Amount>5</Amount>
+    </Effect>
+    <HasQuality>false</HasQuality>
+    <SpriteID>
+      <SpriteID>EspEconItemPeanut</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Syrup. No use yet, used in EspFood. -->
+  <Item>
+    <ID>Syrup</ID>
+    <Name>syrup</Name>
+    <Description>Some [ITEM_NAME].  A delicious, thick, brown liquid made from concentrated maple tree sap.</Description>
+    <ObtainDescription>[EspEcon] Foraged from maple trees.</ObtainDescription>
+    <Effect>
+      <Effect>Food</Effect>
+      <Amount>10</Amount>
+    </Effect>
+    <Value>20</Value>
+    <HasQuality>false</HasQuality>
+    <SpriteID>
+      <SpriteID>EspEconItemSyrup</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Cinnamon. No use yet, used in EspFood. -->
+  <Item>
+    <ID>Cinnamon</ID>
+    <Description>Some [ITEM_NAME].  A valuable spice, it's brown and goes well with sugar.</Description>
+    <ObtainDescription>[EspEcon] Foraged from cinnamon trees.</ObtainDescription>
+    <GroupName>cinnamon</GroupName>
+    <Value>20</Value>
+    <HasQuality>false</HasQuality>
+    <WeaponSize>0</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemCinnamon</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Vase. Decorative, valuable. -->
+  <Item>
+    <ID>Vase</ID>
+    <Name>vase</Name>
+    <Description>[AN_ITEM_NAME].  An open-topped container, good for holding cut flowers.</Description>
+    <ObtainDescription>[EspEcon] Crafted in a Kiln.</ObtainDescription>
+    <Value>62.5</Value>
+    <WeaponSize>50</WeaponSize>
+    <SpriteID>
+      <SpriteID>EspEconItemVase</SpriteID>
+    </SpriteID>
+  </Item>
+  
+  <!-- Adds new item: Dye. Used for recoloring cloth. -->
+  <Item>
+    <ID>Dye</ID>
+    <Name></Name> <!-- intentionally empty -->
+    <GroupName>dye</GroupName>
+    <Description>Some [ITEM_NAME] dye.  A colorful liquid useful for making colorful cloth!</Description>
+    <ObtainDescription>[EspEcon] Sold by traders, and crafted in a Dye Vat.</ObtainDescription>
+    <Value>250</Value>
+    <HasQuality>false</HasQuality>
+    <SpriteID>
+      <SpriteID>Beer</SpriteID>
+    </SpriteID>
+  </Item>
+</Items>
