@@ -19,8 +19,7 @@
     <CraftableItem>
       <ItemID>Vase</ItemID>
       <SkillUsed>Pottery</SkillUsed>
-      <AttributeUsed>Curiosity</AttributeUsed>
-      <AttributeUsed>Nimbleness</AttributeUsed>
+      <AttributeUsed>Focus</AttributeUsed>
       <AttributeUsed>Charm</AttributeUsed>
       <Difficulty>4</Difficulty>
       <Component>
@@ -36,7 +35,6 @@
       <ItemID>TreasureHeap</ItemID>
       <SkillUsed>Metalworking</SkillUsed>
       <AttributeUsed>Nimbleness</AttributeUsed>
-      <AttributeUsed>Charm</AttributeUsed>
       <AttributeUsed>Focus</AttributeUsed>
       <Difficulty>6</Difficulty>
       <Component>
@@ -54,6 +52,20 @@
         <AllowedMaterial>RoseGold</AllowedMaterial>
         <AllowedMaterial>Silver</AllowedMaterial>
         <AllowedMaterial>Platinum</AllowedMaterial>
+      </Component>
+    </CraftableItem>
+  </Item>
+  
+  <Item>
+    <ID>Tailor</ID>
+    <CraftableItem>
+      <ItemID>Lace</ItemID>
+      <SkillUsed>Tailoring</SkillUsed>
+      <AttributeUsed>Nimbleness</AttributeUsed>
+      <AttributeUsed>Charm</AttributeUsed>
+      <Difficulty>8</Difficulty>
+      <Component>
+        <ItemID>String</ItemID>
       </Component>
     </CraftableItem>
   </Item>

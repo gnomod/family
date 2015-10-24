@@ -8,6 +8,14 @@
       <SellModifier>10</SellModifier>
     </TradeGood>
     <TradeGood>
+      <ItemID>Block</ItemID>
+      <SellModifier>10</SellModifier>
+    </TradeGood>
+    <TradeGood>
+      <ItemID>Tile</ItemID>
+      <SellModifier>20</SellModifier>
+    </TradeGood>
+    <TradeGood>
       <ItemID>RawWood</ItemID>
       <SellModifier>3</SellModifier>
     </TradeGood>
@@ -17,7 +25,7 @@
     </TradeGood>
     <TradeGood>
       <ItemID>Bone</ItemID>
-      <SellModifier>3</SellModifier>
+      <SellModifier>5</SellModifier>
     </TradeGood>
     <TradeGood>
       <ItemID>ArmorPlate</ItemID>
@@ -105,6 +113,11 @@
     </TradeGood>
     <TradeGood>
       <ItemID>Dye</ItemID>
+      <BuyModifier>0.4</BuyModifier>
+      <SellModifier>2</SellModifier>
+    </TradeGood>
+    <TradeGood>
+      <ItemID>Lace</ItemID>
       <BuyModifier>0.4</BuyModifier>
       <SellModifier>2</SellModifier>
     </TradeGood>

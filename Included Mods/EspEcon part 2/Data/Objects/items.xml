@@ -256,4 +256,16 @@
       <SpriteID>Beer</SpriteID>
     </SpriteID>
   </Item>
+  
+  <!-- Adds new item: Lace. High trade value, and used in upcoming things. -->
+  <Item>
+    <ID>Lace</ID>
+    <Name>lace</Name>
+    <Description>Some [ITEM_NAME].  A delicate fabric sewn in intricate floral patterns.</Description>
+    <ObtainDescription>[EspEcon] Crafted in at a Tailor Shop.</ObtainDescription>
+    <Value>50</Value>
+    <SpriteID>
+      <SpriteID>EspEconItemLace</SpriteID>
+    </SpriteID>
+  </Item>
 </Items>

@@ -83,7 +83,7 @@
     <Name>blue silk</Name>
     <Type>Cloth</Type>
     <Color>50 50 220 255</Color>
-    <Value>25</Value>
+    <Value>35</Value>
     <Strength>0.15</Strength>
   </Item>
   <Item>
@@ -91,7 +91,7 @@
     <Name>red silk</Name>
     <Type>Cloth</Type>
     <Color>220 50 55 255</Color>
-    <Value>25</Value>
+    <Value>35</Value>
     <Strength>0.15</Strength>
   </Item>
   <Item>
@@ -99,7 +99,7 @@
     <Name>yellow silk</Name>
     <Type>Cloth</Type>
     <Color>220 180 0 255</Color>
-    <Value>25</Value>
+    <Value>35</Value>
     <Strength>0.15</Strength>
   </Item>
   <Item>
@@ -107,7 +107,7 @@
     <Name>purple silk</Name>
     <Type>Cloth</Type>
     <Color>150 0 220 255</Color>
-    <Value>25</Value>
+    <Value>35</Value>
     <Strength>0.15</Strength>
   </Item>
   <Item>
@@ -115,7 +115,7 @@
     <Name>green silk</Name>
     <Type>Cloth</Type>
     <Color>0 200 20 255</Color>
-    <Value>25</Value>
+    <Value>35</Value>
     <Strength>0.15</Strength>
   </Item>
   <Item>
@@ -123,7 +123,7 @@
     <Name>orange silk</Name>
     <Type>Cloth</Type>
     <Color>220 110 0 255</Color>
-    <Value>25</Value>
+    <Value>35</Value>
     <Strength>0.15</Strength>
   </Item>
   <Item>
@@ -131,72 +131,65 @@
     <Name>black silk</Name>
     <Type>Cloth</Type>
     <Color>50 50 50 255</Color>
-    <Value>25</Value>
+    <Value>35</Value>
     <Strength>0.15</Strength>
   </Item>
   
   <Item>
     <ID>BlueWool</ID>
     <Name>blue wool</Name>
-    <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Color>77 77 255 255</Color>
-    <Value>1</Value>
-    <Strength>0.1</Strength>
+    <Value>19</Value>
+    <Strength>0.125</Strength>
   </Item>
   <Item>
     <ID>RedWool</ID>
     <Name>red wool</Name>
-    <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Color>255 77 77 255</Color>
-    <Value>1</Value>
-    <Strength>0.1</Strength>
+    <Value>19</Value>
+    <Strength>0.125</Strength>
   </Item>
   <Item>
     <ID>YellowWool</ID>
     <Name>yellow wool</Name>
-    <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Color>255 255 77 255</Color>
-    <Value>1</Value>
-    <Strength>0.1</Strength>
+    <Value>19</Value>
+    <Strength>0.125</Strength>
   </Item>
   <Item>
     <ID>PurpleWool</ID>
     <Name>purple wool</Name>
-    <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Color>196 77 255 255</Color>
-    <Value>1</Value>
-    <Strength>0.1</Strength>
+    <Value>19</Value>
+    <Strength>0.125</Strength>
   </Item>
   <Item>
     <ID>GreenWool</ID>
     <Name>green wool</Name>
-    <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Color>95 255 77 255</Color>
-    <Value>1</Value>
-    <Strength>0.1</Strength>
+    <Value>19</Value>
+    <Strength>0.125</Strength>
   </Item>
   <Item>
     <ID>OrangeWool</ID>
     <Name>orange wool</Name>
-    <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Color>255 165 77 255</Color>
-    <Value>1</Value>
-    <Strength>0.1</Strength>
+    <Value>19</Value>
+    <Strength>0.125</Strength>
   </Item>
   <Item>
     <ID>BlackWool</ID>
     <Name>black wool</Name>
-    <OnlyAddUniqueName>true</OnlyAddUniqueName>
     <Type>Cloth</Type>
     <Color>100 100 100 255</Color>
-    <Value>1</Value>
-    <Strength>0.1</Strength>
+    <Value>19</Value>
+    <Strength>0.125</Strength>
   </Item>
   
   <Item>
@@ -204,7 +197,7 @@
     <Name>blue cotton</Name>
     <Type>Cloth</Type>
     <Color>130 130 255 255</Color>
-    <Value>1</Value>
+    <Value>11</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
@@ -212,7 +205,7 @@
     <Name>red cotton</Name>
     <Type>Cloth</Type>
     <Color>255 130 130 255</Color>
-    <Value>1</Value>
+    <Value>11</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
@@ -220,7 +213,7 @@
     <Name>yellow cotton</Name>
     <Type>Cloth</Type>
     <Color>255 255 130 255</Color>
-    <Value>1</Value>
+    <Value>11</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
@@ -228,7 +221,7 @@
     <Name>purple cotton</Name>
     <Type>Cloth</Type>
     <Color>213 130 255 255</Color>
-    <Value>1</Value>
+    <Value>11</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
@@ -236,7 +229,7 @@
     <Name>green cotton</Name>
     <Type>Cloth</Type>
     <Color>142 255 130 255</Color>
-    <Value>1</Value>
+    <Value>11</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
@@ -244,7 +237,7 @@
     <Name>orange cotton</Name>
     <Type>Cloth</Type>
     <Color>255 192 130 255</Color>
-    <Value>1</Value>
+    <Value>11</Value>
     <Strength>0.1</Strength>
   </Item>
   <Item>
@@ -252,7 +245,7 @@
     <Name>black cotton</Name>
     <Type>Cloth</Type>
     <Color>150 150 150 255</Color>
-    <Value>1</Value>
+    <Value>11</Value>
     <Strength>0.1</Strength>
   </Item>
   
@@ -351,10 +344,10 @@
   <Item>
     <ID>Salt</ID>
     <Name>salt</Name>
-    <Type>Salt</Type>
+    <Type>Gem</Type>
     <Color>229 225 222 255</Color>
     <Value>5</Value>
-    <Strength>0.2</Strength>
+    <Strength>1.4</Strength>
   </Item>
   
   <Item>

@@ -1,13 +1,13 @@
-Reading mod 'Skinner'...
+Reading mod 'family'...
 
-Reading Mods/Skinner/Data/Objects/items.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/items.xml
+Reading Mods/family/Data/Objects/items.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/items.xml
 	Ignoring duplicate key: CommemorativeCoin
 	Ignoring duplicate key: Chair
 	Ignoring duplicate key: Bed
 	Ignoring duplicate key: FancyBed
 	Ignoring duplicate key: Table
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/items.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/items.xml
 	Ignoring duplicate key: RawSoil
 	Ignoring duplicate key: RawStone
 	Ignoring duplicate key: RawWood
@@ -198,8 +198,10 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/items.xml
 	Ignoring duplicate key: Automaton
 	Ignoring duplicate key: GolemCore
 	Ignoring duplicate key: AutomatonCore
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/items.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria Files/Data/Objects/items.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/items.xml
+Reading Mods/family/Included Mods/EspMine part 2/Data/Objects/items.xml
+	Ignoring duplicate key: Salt
+Reading Mods/family/Included Mods/Vanilla Gnomoria Files/Data/Objects/items.xml
 	Ignoring duplicate key: RawSoil
 	Ignoring duplicate key: RawStone
 	Ignoring duplicate key: RawWood
@@ -390,8 +392,6 @@ Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria
 	Ignoring duplicate key: Automaton
 	Ignoring duplicate key: GolemCore
 	Ignoring duplicate key: AutomatonCore
-Reading Mods/Skinner/Included Mods/EspMine part 2/Data/Objects/items.xml
-	Ignoring duplicate key: Salt
 Reading vanilla material.xml
 	Air Strength: 0
 	Grass Strength: 0
@@ -480,7 +480,7 @@ Reading vanilla material.xml
 	Silica Strength: 0.5
 	Ceramic Strength: 0.7
 	Glass Strength: 0.1
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/material.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/material.xml
 	Ignoring duplicate key: Air
 	Ignoring duplicate key: Grass
 	Ignoring duplicate key: Dirt
@@ -573,7 +573,7 @@ Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/material.xml
 	Ignoring duplicate key: Glass
 	LeadGlass Strength: 0.1
 	Ignoring duplicate key: Silica
-Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/material.xml
+Reading Mods/family/Included Mods/Grand Arboretum Mod/Data/material.xml
 	Ignoring duplicate key: Air
 	Ignoring duplicate key: Grass
 	Ignoring duplicate key: Dirt
@@ -673,7 +673,7 @@ Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/material.xml
 	Ignoring duplicate key: Silica
 	Ignoring duplicate key: Ceramic
 	Ignoring duplicate key: Glass
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/material.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/material.xml
 	Ignoring duplicate key: Air
 	Ignoring duplicate key: Grass
 	Ignoring duplicate key: Dirt
@@ -766,7 +766,7 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/material.xml
 	Ignoring duplicate key: Silica
 	Ignoring duplicate key: Ceramic
 	Ignoring duplicate key: Glass
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/material.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/material.xml
 	RedDye Strength: 0.1
 	BlueDye Strength: 0.1
 	YellowDye Strength: 0.1
@@ -782,13 +782,13 @@ Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/material.xml
 	GreenSilk Strength: 0.15
 	OrangeSilk Strength: 0.15
 	BlackSilk Strength: 0.15
-	BlueWool Strength: 0.1
-	RedWool Strength: 0.1
-	YellowWool Strength: 0.1
-	PurpleWool Strength: 0.1
-	GreenWool Strength: 0.1
-	OrangeWool Strength: 0.1
-	BlackWool Strength: 0.1
+	BlueWool Strength: 0.125
+	RedWool Strength: 0.125
+	YellowWool Strength: 0.125
+	PurpleWool Strength: 0.125
+	GreenWool Strength: 0.125
+	OrangeWool Strength: 0.125
+	BlackWool Strength: 0.125
 	BlueCotton Strength: 0.1
 	RedCotton Strength: 0.1
 	YellowCotton Strength: 0.1
@@ -800,12 +800,12 @@ Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/material.xml
 	Mahogany Strength: 1.9
 	Maple Strength: 0.5
 	Cinnamon Strength: 0.5
-	Salt Strength: 0.2
+	Salt Strength: 1.4
 	Beet Strength: 0.2
 	Peanut Strength: 0.2
 	Diamond Strength: 5.5
 	SkeletonBone Strength: 1.5
-Reading Mods/Skinner/Included Mods/EspMine part 2/Data/material.xml
+Reading Mods/family/Included Mods/EspMine part 2/Data/material.xml
 	Ruby Strength: 3
 	Topaz Strength: 2.8
 	Amethyst Strength: 2.6
@@ -813,8 +813,96 @@ Reading Mods/Skinner/Included Mods/EspMine part 2/Data/material.xml
 	RoseDiamond Strength: 5.5
 	BlackDiamond Strength: 5.5
 	Ignoring duplicate key: Salt
+Reading Mods/family/Included Mods/Vanilla Gnomoria Files/Data/material.xml
+	Ignoring duplicate key: Air
+	Ignoring duplicate key: Grass
+	Ignoring duplicate key: Dirt
+	Ignoring duplicate key: Clay
+	Ignoring duplicate key: Granite
+	Ignoring duplicate key: Basalt
+	Ignoring duplicate key: Marble
+	Ignoring duplicate key: Sandstone
+	Ignoring duplicate key: Bauxite
+	Ignoring duplicate key: Serpentine
+	Ignoring duplicate key: LapisLazuli
+	Ignoring duplicate key: Obsidian
+	Ignoring duplicate key: Brick
+	Ignoring duplicate key: Water
+	Ignoring duplicate key: Lava
+	Ignoring duplicate key: Pine
+	Ignoring duplicate key: AppleWood
+	Ignoring duplicate key: Birch
+	Ignoring duplicate key: Coal
+	Ignoring duplicate key: Copper
+	Ignoring duplicate key: Malachite
+	Ignoring duplicate key: Tin
+	Ignoring duplicate key: Bronze
+	Ignoring duplicate key: Iron
+	Ignoring duplicate key: Steel
+	Ignoring duplicate key: Lead
+	Ignoring duplicate key: Silver
+	Ignoring duplicate key: Gold
+	Ignoring duplicate key: RoseGold
+	Ignoring duplicate key: Platinum
+	Ignoring duplicate key: Emerald
+	Ignoring duplicate key: Sapphire
+	Ignoring duplicate key: Strawberry
+	Ignoring duplicate key: Apple
+	Ignoring duplicate key: Wheat
+	Ignoring duplicate key: Cotton
+	Ignoring duplicate key: Wool
+	Ignoring duplicate key: StandardBone
+	Ignoring duplicate key: StandardShell
+	Ignoring duplicate key: ThinChitin
+	Ignoring duplicate key: ThickChitin
+	Ignoring duplicate key: StandardSkin
+	Ignoring duplicate key: YakHide
+	Ignoring duplicate key: BearHide
+	Ignoring duplicate key: StandardWeakFlesh
+	Ignoring duplicate key: StandardStrongFlesh
+	Ignoring duplicate key: Milk
+	Ignoring duplicate key: Egg
+	Ignoring duplicate key: OgreHide
+	Ignoring duplicate key: ToughOgreHide
+	Ignoring duplicate key: ThinMantChitin
+	Ignoring duplicate key: ThickMantChitin
+	Ignoring duplicate key: AlpacaHide
+	Ignoring duplicate key: EmuHide
+	Ignoring duplicate key: HoneyBadgerHide
+	Ignoring duplicate key: MonitorLizardHide
+	Ignoring duplicate key: YakFlesh
+	Ignoring duplicate key: AlpacaFlesh
+	Ignoring duplicate key: EmuFlesh
+	Ignoring duplicate key: HoneyBadgerFlesh
+	Ignoring duplicate key: MonitorLizardFlesh
+	Ignoring duplicate key: BearFlesh
+	Ignoring duplicate key: OgreFlesh
+	Ignoring duplicate key: TwoHeadedOgreFlesh
+	Ignoring duplicate key: YakBone
+	Ignoring duplicate key: AlpacaBone
+	Ignoring duplicate key: EmuBone
+	Ignoring duplicate key: HoneyBadgerBone
+	Ignoring duplicate key: MonitorLizardBone
+	Ignoring duplicate key: BearBone
+	Ignoring duplicate key: OgreBone
+	Ignoring duplicate key: TwoHeadedOgreBone
+	Ignoring duplicate key: YakSkull
+	Ignoring duplicate key: AlpacaSkull
+	Ignoring duplicate key: EmuSkull
+	Ignoring duplicate key: HoneyBadgerSkull
+	Ignoring duplicate key: MonitorLizardSkull
+	Ignoring duplicate key: BearSkull
+	Ignoring duplicate key: OgreSkull
+	Ignoring duplicate key: TwoHeadedOgreSkull
+	Ignoring duplicate key: Grape
+	Ignoring duplicate key: Orange
+	Ignoring duplicate key: OrangeWood
+	Ignoring duplicate key: Mushroom
+	Ignoring duplicate key: Silica
+	Ignoring duplicate key: Ceramic
+	Ignoring duplicate key: Glass
 Reading vanilla workshops.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/workshops.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/workshops.xml
 	Merging workshop with key: Stonecutter
 	Merging workshop with key: Woodcutter
 	Merging workshop with key: Forge
@@ -845,7 +933,7 @@ Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/workshops.
 	Merging workshop with key: Smelter
 	Merging workshop with key: Prospector
 	Merging workshop with key: Kiln
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/workshops.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/workshops.xml
 	Merging workshop with key: Stonecutter
 	Merging workshop with key: Woodcutter
 	Merging workshop with key: Forge
@@ -876,17 +964,18 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/workshops.x
 	Merging workshop with key: Bonecarver
 	Merging workshop with key: Smelter
 	Merging workshop with key: Prospector
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/workshops.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/workshops.xml
 	Merging workshop with key: Kitchen
 	Merging workshop with key: Kiln
 	Merging workshop with key: Metalworker
-Reading Mods/Skinner/Included Mods/EspMine part 2/Data/Objects/workshops.xml
+	Merging workshop with key: Tailor
+Reading Mods/family/Included Mods/EspMine part 2/Data/Objects/workshops.xml
 	Merging workshop with key: Blacksmith
-Reading Mods/Skinner/Data/Objects/constructions.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/constructions.xml
+Reading Mods/family/Data/Objects/constructions.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/constructions.xml
 	Ignoring duplicate key: Bed
 	Ignoring duplicate key: FancyBed
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/constructions.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/constructions.xml
 	Ignoring duplicate key: SoilFloor
 	Ignoring duplicate key: RawStoneFloor
 	Ignoring duplicate key: LogFloor
@@ -1012,8 +1101,8 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/constructio
 	Ignoring duplicate key: CeramicWall
 	Ignoring duplicate key: CarvedStoneFloor
 	Ignoring duplicate key: CarvedStoneWall
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/constructions.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria Files/Data/Objects/constructions.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/constructions.xml
+Reading Mods/family/Included Mods/Vanilla Gnomoria Files/Data/Objects/constructions.xml
 	Ignoring duplicate key: SoilFloor
 	Ignoring duplicate key: RawStoneFloor
 	Ignoring duplicate key: LogFloor
@@ -1141,7 +1230,7 @@ Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria
 	Ignoring duplicate key: CarvedStoneWall
 Reading vanilla sprites.xml
 	Loading texture: Content/Sprites/default.png
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/sprites.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/sprites.xml
 	Ignoring duplicate key: SelectionFloor
 	Ignoring duplicate key: SelectionWall
 	Ignoring duplicate key: SolidSelectionFloor
@@ -2079,8 +2168,8 @@ Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/sprites.xml
 	Ignoring duplicate key: SmoothStoneShortWall
 	Ignoring duplicate key: CeramicShortWall
 	Ignoring duplicate key: CarvedShortWall
-	Loading texture: Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Sprites/GwSprites.png
-Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/sprites.xml
+	Loading texture: Mods/family/Included Mods/Glassworks v1.0.1 (S)/Sprites/GwSprites.png
+Reading Mods/family/Included Mods/Grand Arboretum Mod/Data/sprites.xml
 	Ignoring duplicate key: SelectionFloor
 	Ignoring duplicate key: SelectionWall
 	Ignoring duplicate key: SolidSelectionFloor
@@ -2125,30 +2214,30 @@ Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/sprites.xml
 	Ignoring duplicate key: AppleTreeNoLeaves
 	Ignoring duplicate key: BirchTree
 	Ignoring duplicate key: BirchTreeNoLeaves
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/EbonyTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/EbonyTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/GhostwoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/GhostwoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/CherrywoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/CherrywoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/BloodwoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/BloodwoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/SheoakTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/SheoakTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/AmberwoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/AmberwoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/MosswoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/MosswoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/OpalwoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/OpalwoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/AmaranthTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/AmaranthTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/GrimwoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/GrimwoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/WurmwoodTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/WurmwoodTreeNoLeaves.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/SakuraTree.png
-	Loading texture: Mods/Skinner/Included Mods/Grand Arboretum Mod/Sprites/SakuraTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/EbonyTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/EbonyTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/GhostwoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/GhostwoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/CherrywoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/CherrywoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/BloodwoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/BloodwoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/SheoakTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/SheoakTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/AmberwoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/AmberwoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/MosswoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/MosswoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/OpalwoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/OpalwoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/AmaranthTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/AmaranthTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/GrimwoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/GrimwoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/WurmwoodTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/WurmwoodTreeNoLeaves.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/SakuraTree.png
+	Loading texture: Mods/family/Included Mods/Grand Arboretum Mod/Sprites/SakuraTreeNoLeaves.png
 	Ignoring duplicate key: AppleFruitOnTrue
 	Ignoring duplicate key: Sapling
 	Ignoring duplicate key: StrawberryPlant
@@ -3042,7 +3131,7 @@ Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/sprites.xml
 	Ignoring duplicate key: SmoothStoneShortWall
 	Ignoring duplicate key: CeramicShortWall
 	Ignoring duplicate key: CarvedShortWall
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/sprites.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/sprites.xml
 	Ignoring duplicate key: SelectionFloor
 	Ignoring duplicate key: SelectionWall
 	Ignoring duplicate key: SolidSelectionFloor
@@ -3715,7 +3804,7 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/sprites.xml
 	Ignoring duplicate key: LogFR
 	Ignoring duplicate key: LogBR
 	Ignoring duplicate key: LogBL
-	Loading texture: Mods/Skinner/Included Mods/Extended Agriculture/Sprites/default.png
+	Loading texture: Mods/family/Included Mods/Extended Agriculture/Sprites/default.png
 	Ignoring duplicate key: Grain
 	Ignoring duplicate key: Chisel
 	Ignoring duplicate key: Wrench
@@ -3981,12 +4070,12 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/sprites.xml
 	Ignoring duplicate key: SmoothStoneShortWall
 	Ignoring duplicate key: CeramicShortWall
 	Ignoring duplicate key: CarvedShortWall
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/sprites.xml
-	Loading texture: Mods/Skinner/Included Mods/EspEcon part 2/Sprites/EspEconSprites.png
-Reading Mods/Skinner/Included Mods/EspMine part 2/Data/sprites.xml
-	Loading texture: Mods/Skinner/Included Mods/EspMine part 2/Sprites/EspMineSprites.png
+Reading Mods/family/Included Mods/EspEcon part 2/Data/sprites.xml
+	Loading texture: Mods/family/Included Mods/EspEcon part 2/Sprites/EspEconSprites.png
+Reading Mods/family/Included Mods/EspMine part 2/Data/sprites.xml
+	Loading texture: Mods/family/Included Mods/EspMine part 2/Sprites/EspMineSprites.png
 Reading vanilla plant.xml
-Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/Objects/plant.xml
+Reading Mods/family/Included Mods/Grand Arboretum Mod/Data/Objects/plant.xml
 	Ignoring duplicate key: Strawberry
 	Ignoring duplicate key: Cotton
 	Ignoring duplicate key: Wheat
@@ -3996,7 +4085,7 @@ Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/Objects/plant.xml
 	Ignoring duplicate key: Grape
 	Ignoring duplicate key: OrangeTree
 	Ignoring duplicate key: Mushroom
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/plant.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/plant.xml
 	Ignoring duplicate key: Strawberry
 	Ignoring duplicate key: Cotton
 	Ignoring duplicate key: Wheat
@@ -4006,13 +4095,13 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/plant.xml
 	Ignoring duplicate key: Grape
 	Ignoring duplicate key: OrangeTree
 	Ignoring duplicate key: Mushroom
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/plant.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/plant.xml
 Reading vanilla liquid.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/liquid.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/liquid.xml
 	Ignoring duplicate key: Water
 	Ignoring duplicate key: Lava
-Reading Mods/Skinner/Data/Objects/storage.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/storage.xml
+Reading Mods/family/Data/Objects/storage.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/storage.xml
 	Ignoring duplicate key: ResourcePile
 	Ignoring duplicate key: MusketRoundPile
 	Ignoring duplicate key: CrossbowBoltPile
@@ -4025,7 +4114,7 @@ Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/storage.xm
 	Ignoring duplicate key: Sack
 	Ignoring duplicate key: Crate
 	Ignoring duplicate key: Wheelbarrow
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/storage.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/storage.xml
 	Ignoring duplicate key: ResourcePile
 	Ignoring duplicate key: MusketRoundPile
 	Ignoring duplicate key: CrossbowBoltPile
@@ -4039,17 +4128,17 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/storage.xml
 	Ignoring duplicate key: Wheelbarrow
 	Ignoring duplicate key: Bucket
 	Ignoring duplicate key: Sack
-Reading Mods/Skinner/Included Mods/EspMine part 2/Data/Objects/storage.xml
+Reading Mods/family/Included Mods/EspMine part 2/Data/Objects/storage.xml
 	Ignoring duplicate key: Crate
 	Ignoring duplicate key: Bag
 	Ignoring duplicate key: Wheelbarrow
 	Ignoring duplicate key: Sack
 Reading vanilla ammo.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/ammo.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/ammo.xml
 	Ignoring duplicate key: MusketRound
 	Ignoring duplicate key: Bolt
 Reading vanilla mechanism.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/mechanism.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/mechanism.xml
 	Ignoring duplicate key: Axle
 	Ignoring duplicate key: VerticalAxle
 	Ignoring duplicate key: GearBox
@@ -4064,11 +4153,11 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/mechanism.x
 	Ignoring duplicate key: WindMill
 	Ignoring duplicate key: SteamEngine
 Reading vanilla trap.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/trap.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/trap.xml
 	Ignoring duplicate key: SpikeTrap
 	Ignoring duplicate key: BladeTrap
 Reading vanilla blueprint.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/blueprint.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/blueprint.xml
 	Ignoring duplicate key: Rod
 	Ignoring duplicate key: Axle
 	Ignoring duplicate key: Gear
@@ -4101,7 +4190,7 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/blueprint.x
 	Ignoring duplicate key: ArtificialFoot
 	Ignoring duplicate key: Automaton
 Reading vanilla skill.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Characters/skill.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Characters/skill.xml
 	Ignoring duplicate key: Mining
 	Ignoring duplicate key: Masonry
 	Ignoring duplicate key: Stonecarving
@@ -4146,7 +4235,7 @@ Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Characters/skill.x
 	Ignoring duplicate key: Caretaking
 	Ignoring duplicate key: Bonecarving
 	Ignoring duplicate key: Prospecting
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/skill.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/skill.xml
 	Ignoring duplicate key: Mining
 	Ignoring duplicate key: Masonry
 	Ignoring duplicate key: Stonecarving
@@ -4192,7 +4281,7 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/skill.xm
 	Ignoring duplicate key: Bonecarving
 	Ignoring duplicate key: Prospecting
 Reading vanilla race.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/race.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/race.xml
 	Ignoring duplicate key: Gnome
 	Ignoring duplicate key: GnomeMerchant
 	Ignoring duplicate key: Alpaca
@@ -4212,14 +4301,14 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/race.xml
 	Ignoring duplicate key: Zombie
 	Ignoring duplicate key: Skeleton
 	Ignoring duplicate key: Automaton
-Reading Mods/Skinner/Data/Characters/faction.xml
-Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/Characters/faction.xml
+Reading Mods/family/Data/Characters/faction.xml
+Reading Mods/family/Included Mods/Grand Arboretum Mod/Data/Characters/faction.xml
 	Ignoring duplicate key: Gnome
 	Ignoring duplicate key: MerchantCityState
 	Ignoring duplicate key: MiningColony
 	Ignoring duplicate key: LumberCamp
 	Ignoring duplicate key: AgriculturalSettlement
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/faction.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/faction.xml
 	Ignoring duplicate key: Gnome
 	Ignoring duplicate key: Livestock
 	Ignoring duplicate key: MerchantCityState
@@ -4232,7 +4321,7 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/faction.
 	Ignoring duplicate key: MiningColony
 	Ignoring duplicate key: LumberCamp
 	Ignoring duplicate key: AgriculturalSettlement
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria Files/Data/Characters/faction.xml
+Reading Mods/family/Included Mods/Vanilla Gnomoria Files/Data/Characters/faction.xml
 	Ignoring duplicate key: Livestock
 	Ignoring duplicate key: Wild
 	Ignoring duplicate key: Subteranean
@@ -4240,8 +4329,8 @@ Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria
 	Ignoring duplicate key: Beetle
 	Ignoring duplicate key: Mant
 	Ignoring duplicate key: Undead
-Reading Mods/Skinner/Data/Characters/bodypart.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/bodypart.xml
+Reading Mods/family/Data/Characters/bodypart.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/bodypart.xml
 	Ignoring duplicate key: SpiderCephalothorax
 	Ignoring duplicate key: SpiderAbdomen
 	Ignoring duplicate key: SpiderLeg
@@ -4254,7 +4343,7 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/bodypart
 	Ignoring duplicate key: SkeletonLeg
 	Ignoring duplicate key: SkeletonHand
 	Ignoring duplicate key: SkeletonFoot
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria Files/Data/Characters/bodypart.xml
+Reading Mods/family/Included Mods/Vanilla Gnomoria Files/Data/Characters/bodypart.xml
 	Ignoring duplicate key: GnomeUpperBody
 	Ignoring duplicate key: GnomeLowerBody
 	Ignoring duplicate key: GnomeHead
@@ -4384,7 +4473,7 @@ Reading Mods/Skinner/Included Mods/EspEcon part 2/Included Mods/Vanilla Gnomoria
 	Ignoring duplicate key: AutomatonHand
 	Ignoring duplicate key: AutomatonFoot
 Reading vanilla body.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/body.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/body.xml
 	Ignoring duplicate key: Gnome
 	Ignoring duplicate key: Goblin
 	Ignoring duplicate key: Alpaca
@@ -4404,72 +4493,73 @@ Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/body.xml
 	Ignoring duplicate key: Skeleton
 	Ignoring duplicate key: Automaton
 Reading vanilla itemsettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/itemsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/itemsettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/itemsettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/itemsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/itemsettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/itemsettings.xml
+Reading Mods/family/Included Mods/EspMine part 2/Data/Objects/itemsettings.xml
 Reading vanilla rightclickmenusettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/UI/rightclickmenusettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/UI/rightclickmenusettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/UI/rightclickmenusettings.xml
-Reading Mods/Skinner/Data/UI/stockmenusettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/UI/stockmenusettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/UI/stockmenusettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/UI/stockmenusettings.xml
-Reading Mods/Skinner/Data/Characters/uniformsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/uniformsettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/UI/rightclickmenusettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/UI/rightclickmenusettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/UI/rightclickmenusettings.xml
+Reading Mods/family/Data/UI/stockmenusettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/UI/stockmenusettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/UI/stockmenusettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/UI/stockmenusettings.xml
+Reading Mods/family/Data/Characters/uniformsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/uniformsettings.xml
 Reading vanilla constructionsettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/constructionsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/constructionsettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/constructionsettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/constructionsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/constructionsettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/constructionsettings.xml
 Reading vanilla workshopsettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/workshopsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/workshopsettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/workshopsettings.xml
-Reading Mods/Skinner/Included Mods/EspMine part 2/Data/Objects/workshopsettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/workshopsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/workshopsettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/workshopsettings.xml
+Reading Mods/family/Included Mods/EspMine part 2/Data/Objects/workshopsettings.xml
 Reading vanilla prospectorsettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/prospectorsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/prospectorsettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Objects/prospectorsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/prospectorsettings.xml
 Reading vanilla designationsettings.xml
 Reading vanilla charactersettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/Characters/charactersettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/charactersettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Characters/charactersettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/Characters/charactersettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/charactersettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Characters/charactersettings.xml
 Reading vanilla goblinsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/goblinsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/goblinsettings.xml
 Reading vanilla mantsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/mantsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/mantsettings.xml
 Reading vanilla golemsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/golemsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/golemsettings.xml
 Reading vanilla automatonsettings.xml
 Reading vanilla grasssettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/grasssettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/grasssettings.xml
 Reading vanilla bloodsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Characters/bloodsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Characters/bloodsettings.xml
 Reading vanilla terrainsettings.xml
-Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/terrainsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/terrainsettings.xml
+Reading Mods/family/Included Mods/Grand Arboretum Mod/Data/terrainsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/terrainsettings.xml
 Reading vanilla jobsettings.xml
 Reading vanilla newgamesettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/newgamesettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/newgamesettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/newgamesettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/newgamesettings.xml
 Reading vanilla plantsettings.xml
-Reading Mods/Skinner/Included Mods/Grand Arboretum Mod/Data/Objects/plantsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/plantsettings.xml
-Reading Mods/Skinner/Included Mods/EspEcon part 2/Data/Objects/plantsettings.xml
+Reading Mods/family/Included Mods/Grand Arboretum Mod/Data/Objects/plantsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/plantsettings.xml
+Reading Mods/family/Included Mods/EspEcon part 2/Data/Objects/plantsettings.xml
 Reading vanilla liquidsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/liquidsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/liquidsettings.xml
 Reading vanilla mechanismsettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Objects/mechanismsettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Objects/mechanismsettings.xml
 Reading vanilla language.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Names/language.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Names/language.xml
 Reading vanilla name.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Names/name.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Names/name.xml
 Reading vanilla word.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Names/word.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Names/word.xml
 Reading vanilla namerules.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/Names/namerules.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/Names/namerules.xml
 Reading vanilla professionmenusettings.xml
-Reading Mods/Skinner/Included Mods/Glassworks v1.0.1 (S)/Data/UI/professionmenusettings.xml
-Reading Mods/Skinner/Included Mods/Extended Agriculture/Data/UI/professionmenusettings.xml
+Reading Mods/family/Included Mods/Glassworks v1.0.1 (S)/Data/UI/professionmenusettings.xml
+Reading Mods/family/Included Mods/Extended Agriculture/Data/UI/professionmenusettings.xml
 
 ...finished reading mod

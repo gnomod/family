@@ -1,0 +1,12 @@
+<ItemSettings>
+  <MaterialTypeToItemID>
+    <Item>
+      <Key>Salt</Key>
+      <Value>RawGem</Value>
+    </Item>
+    <Item>
+      <Key>Gem</Key>
+      <Value>RawGem</Value>
+    </Item>
+  </MaterialTypeToItemID>
+</ItemSettings>

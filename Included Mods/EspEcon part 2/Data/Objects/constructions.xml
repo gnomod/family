@@ -75,7 +75,7 @@
     </SpriteID>
     <SpriteID>
       <SpriteID>EspEconItemTreasureHeapSword</SpriteID>
-      <MaterialIndex>10</MaterialIndex>
+      <MaterialIndex>-1</MaterialIndex>
     </SpriteID>
     <Component>
       <ItemID>TreasureHeap</ItemID>

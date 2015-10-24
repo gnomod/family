@@ -290,4 +290,11 @@
     <SourceRectangle>384 183 32 32</SourceRectangle>
     <Offset>0 -12</Offset>
   </Item>
+  
+  <Item>
+    <SpriteID>EspEconItemLace</SpriteID>
+    <SpritePath>EspEconSprites.png</SpritePath>
+    <SourceRectangle>112 32 16 16</SourceRectangle>
+    <Offset>0 -6</Offset>
+  </Item>
 </Sprites>
